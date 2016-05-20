@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:id_dept;datatype:int,name:doc_no;datatype:string,name:rev;datatype:string,name:efect_date;datatype:string,name:title;datatype:blob,name:dsop_note;datatype:blob,name:retention_time;datatype:string,name:idms;datatype:string,name:fileupload;datatype:blob,name:id;datatype:int,name:department;datatype:string,name:urutan;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:id_dept;datatype:int,name:doc_no;datatype:string,name:rev;datatype:string,name:efect_date;datatype:string,name:title;datatype:blob" />
+	<infoitem key="UD_rsdocform" value="name:id;datatype:int,name:id_dept;datatype:int,name:doc_no;datatype:string,name:rev;datatype:string,name:efect_date;datatype:string,name:title;datatype:blob,name:dsop_note;datatype:blob,name:retention_time;datatype:string,name:idms;datatype:string,name:fileupload;datatype:blob,name:id;datatype:int,name:department;datatype:string,name:urutan;datatype:int" />
+</info>

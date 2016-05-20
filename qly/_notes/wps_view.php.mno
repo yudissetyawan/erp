@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsplatform1" value="name:PlatformID;datatype:int,name:AreaID;datatype:int,name:PlatformName;datatype:string,name:PlatformCode;datatype:string" />
+	<infoitem key="UD_rsplatform" value="name:PlatformID;datatype:int,name:AreaID;datatype:int,name:PlatformName;datatype:string,name:PlatformCode;datatype:string" />
+	<infoitem key="UD_rsarea" value="name:id;datatype:int,name:kode_lokasi;datatype:string,name:AreaName;datatype:string,name:lokasi;datatype:blob" />
+	<infoitem key="UD_rswps" value="name:wps_id;datatype:int,name:wps_no;datatype:string,name:supp_pqrno;datatype:string,name:wps_std_code;datatype:string,name:wps_rev;datatype:string,name:wps_date;datatype:string,name:welding_process;datatype:string,name:welding_type;datatype:string,name:wps_remark;datatype:blob" />
+</info>

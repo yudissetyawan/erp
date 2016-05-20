@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_q_ccomplaint" value="name:id;datatype:int,name:tanggal;datatype:date,name:title_complaint;datatype:blob,name:complaint;datatype:blob,name:complaint_by;datatype:string,name:compalint_via;datatype:string,name:status_cpar;datatype:int" />
+</info>

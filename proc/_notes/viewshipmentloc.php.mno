@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsshipmentterms" value="name:id_sterm;datatype:int,name:shipment_term;datatype:string,name:activeYN;datatype:string" />
+	<infoitem key="UD_rsshipmentloc" value="name:id_sloc;datatype:int,name:shipmentloc_descr;datatype:string,name:activeYN;datatype:string" />
+</info>

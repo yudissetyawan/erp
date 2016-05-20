@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_header" value="name:id;datatype:int,name:no_bbk;datatype:string,name:id_bpb;datatype:int,name:tanggal;datatype:date,name:diketahui_by;datatype:int,name:diserahkan_by;datatype:int,name:diterima_by;datatype:int,name:accounting;datatype:int,name:bpb_no;datatype:string" />
+</info>

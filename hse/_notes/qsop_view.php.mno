@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsxdoccatg1" value="name:id;datatype:int,name:xcatg_descr;datatype:string" />
+	<infoitem key="UD_rsxdoccatg" value="name:PlatformID;datatype:int,name:AreaID;datatype:int,name:PlatformName;datatype:string,name:PlatformCode;datatype:string" />
+	<infoitem key="UD_rsplatform" value="name:PlatformID;datatype:int,name:AreaID;datatype:int,name:PlatformName;datatype:string,name:PlatformCode;datatype:string" />
+	<infoitem key="UD_rsplatform1" value="name:PlatformID;datatype:int,name:AreaID;datatype:int,name:PlatformName;datatype:string,name:PlatformCode;datatype:string" />
+	<infoitem key="UD_rsarea" value="name:id;datatype:int,name:kode_lokasi;datatype:string,name:AreaName;datatype:string,name:lokasi;datatype:blob" />
+	<infoitem key="UD_rsqsop" value="name:id_sopprj;datatype:int,name:loc_orplatform;datatype:string,name:project_name;datatype:string,name:qsop_no;datatype:string,name:ppha_no;datatype:string,name:qsop_title;datatype:string,name:draft_issued;datatype:string,name:sentdraft_tocvx;datatype:string,name:review_on;datatype:string,name:sentfinal_tocvx;datatype:string,name:rev_addcomment;datatype:string,name:soclz_bybkk;datatype:string,name:remark;datatype:blob,name:PlatformName;datatype:string" />
+</info>

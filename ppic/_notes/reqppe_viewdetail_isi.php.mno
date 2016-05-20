@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsdocore" value="name:id;datatype:int,name:doheader;datatype:int,name:id_item;datatype:int,name:qty;datatype:string,name:id_unit;datatype:string,name:dimension;datatype:string,name:remark;datatype:blob,name:mtrl_model;datatype:string,name:descr_name;datatype:blob,name:brand;datatype:string,name:id_type;datatype:string,name:itemunit;datatype:string" />
+</info>

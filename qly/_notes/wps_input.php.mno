@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rssite" value="name:PlatformID;datatype:int,name:AreaID;datatype:int,name:PlatformName;datatype:string,name:PlatformCode;datatype:string" />
+</info>

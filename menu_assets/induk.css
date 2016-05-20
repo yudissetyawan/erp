@@ -1,0 +1,126 @@
+@charset "utf-8";
+.General {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333;
+	background-color: #FFF;
+}
+	body{
+	margin: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 62.5%;
+	background-color: #FFF;
+	color: #333;
+}
+			.demoHeaders {
+	margin-top: 2em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: 8db4e3;
+	text-align: center;
+}
+			#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+			#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+			ul#icons {margin: 0; padding: 0;}
+			ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+			ul#icons span.ui-icon {float: left; margin: 0 4px;}
+
+.tabel_index {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: top;
+	background-color: #8db4e3;
+	color: #000;
+	font-weight: bold;
+}
+.tabel_number {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	color: #000;
+	background-color: #F7F3F7;
+}
+.tabel_header {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	color: #000;
+	background-color:#A4AED8;
+	font-weight: bold;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	vertical-align: middle;
+}
+.tabel_body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	vertical-align: middle;
+	background-color:  #F7F3F7;
+}
+.judul {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+	vertical-align: middle;
+}
+.menu_tabel {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	color: #000;
+	background-color: #F7F3F7;
+	font-weight: bold;
+}
+.isi_view {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: underline;
+}
+.marque {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #03F;
+}
+.tombol {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	background-color: #F7F3F7;
+}
+.detail {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	text-align: left;
+	background-color: #F7F3F7;
+}
+.root {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	vertical-align: top;
+	background-color: #8db4e3;
+	color: #000;
+	font-weight: normal;
+}

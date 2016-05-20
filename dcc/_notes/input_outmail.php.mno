@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:customername;datatype:blob,name:address1;datatype:blob,name:adress2;datatype:blob,name:city;datatype:string,name:zip;datatype:string,name:country;datatype:string,name:phone1;datatype:string,name:phone2;datatype:string,name:fax;datatype:string,name:email;datatype:string,name:reference;datatype:string,name:remark;datatype:blob,name:npwp;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:firstname;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:id;datatype:int,name:customername;datatype:blob,name:address1;datatype:blob,name:adress2;datatype:blob,name:city;datatype:string,name:zip;datatype:string,name:country;datatype:string,name:phone1;datatype:string,name:phone2;datatype:string,name:fax;datatype:string,name:email;datatype:string,name:reference;datatype:string,name:remark;datatype:blob,name:npwp;datatype:string" />
+	<infoitem key="UD_Recordset4" value="name:initial;datatype:blob" />
+	<infoitem key="UD_Recordset5" value="name:id_nosurat;datatype:int,name:kd_tahun;datatype:int,name:id;datatype:int,name:no_surat;datatype:int,name:date;datatype:date,name:description;datatype:string,name:costumer;datatype:string,name:contact_person;datatype:string,name:from_approv;datatype:string,name:from_maker;datatype:string,name:information;datatype:string,name:status;datatype:int" />
+	<infoitem key="UD_Recordset6" value="name:id;datatype:int,name:date;datatype:date,name:description;datatype:string,name:costumer;datatype:string,name:contact_person;datatype:string,name:from_approv;datatype:string,name:from_maker;datatype:string,name:information;datatype:string,name:status;datatype:int" />
+</info>

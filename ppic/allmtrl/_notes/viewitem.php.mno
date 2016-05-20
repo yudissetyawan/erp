@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:mtrl_model;datatype:string,name:descr_name;datatype:blob,name:id_material;datatype:string,name:msubcatg_descr;datatype:string,name:id_msubcatg;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:mtrl_model;datatype:string,name:descr_name;datatype:blob,name:id_material;datatype:string,name:msubcatg_descr;datatype:string,name:id_msubcatg;datatype:int" />
+</info>

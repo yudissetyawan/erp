@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:id_wpr_header;datatype:int,name:eng_thisweek;datatype:string,name:eng_nextweek;datatype:string,name:proc_thisweek;datatype:string,name:proc_nextweek;datatype:string,name:fab_thisweek;datatype:string,name:fab_nextweek;datatype:string,name:inst_thisweek;datatype:string,name:isnt_nextweek;datatype:string" />
+</info>

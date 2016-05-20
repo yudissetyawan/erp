@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_po_no" value="name:id;datatype:int,name:pono;datatype:string,name:vendor;datatype:string,name:vendorname;datatype:string" />
+	<infoitem key="UD_supplier" value="name:id;datatype:int,name:vendorname;datatype:string" />
+	<infoitem key="UD_diserahkan_by" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_diterima_by" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_diperiksa_by" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_accounting" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+</info>

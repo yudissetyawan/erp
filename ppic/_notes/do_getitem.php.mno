@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rscmbunit" value="name:id_unit;datatype:int,name:unit;datatype:string,name:unitdesc;datatype:blob" />
+</info>

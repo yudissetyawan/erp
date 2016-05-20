@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:id_wpr_header;datatype:int,name:id_wpr_tanggal;datatype:int,name:startdate;datatype:blob,name:finishdate;datatype:blob,name:forecast_comp;datatype:blob,name:onschedule;datatype:real,name:planned_duration;datatype:real,name:time_elapsed;datatype:real,name:time_remaining;datatype:real,name:cmltv_plan;datatype:real,name:cmltv_actual;datatype:real,name:variance;datatype:real,name:incr_actual;datatype:real,name:est_complete;datatype:real" />
+</info>

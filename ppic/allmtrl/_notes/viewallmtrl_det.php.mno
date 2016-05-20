@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsusr" value="name:fname;datatype:string,name:mname;datatype:string,name:lname;datatype:string" />
+	<infoitem key="UD_rsitem" value="name:id_item;datatype:int,name:item_code;datatype:string,name:id_mmodel;datatype:string,name:descr_name;datatype:blob,name:id_mstd;datatype:string,name:descr_spec;datatype:blob,name:id_type;datatype:string,name:id_unit;datatype:string,name:brand;datatype:string,name:itemprice;datatype:real,name:lockprice;datatype:string,name:s_active;datatype:int,name:last_updated;datatype:string,name:updated_by;datatype:int,name:unit;datatype:string,name:mtrl_model;datatype:string,name:mcatg_descr;datatype:string,name:msubcatg_descr;datatype:string,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+</info>

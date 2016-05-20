@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:idms;datatype:int,name:id_progress_header;datatype:int,name:productioncode;datatype:string,name:progress_qly;datatype:int,name:progress_hse;datatype:int,name:progress_eng;datatype:int,name:progress_prc;datatype:int,name:progress_ppic;datatype:int,name:progress_fab;datatype:int,name:progress_hrd;datatype:int,name:progress_fin;datatype:int,name:progress_mtn;datatype:int,name:progress_it;datatype:int,name:progress_prj;datatype:int,name:all_progress;datatype:int" />
+</info>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset5" value="name:id;datatype:int,name:location;datatype:string,name:title;datatype:string,name:drawingno;datatype:string,name:revisi;datatype:string,name:date;datatype:timestamp,name:wrno;datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:customername;datatype:string,name:address1;datatype:blob,name:adress2;datatype:blob,name:city;datatype:string,name:zip;datatype:string,name:country;datatype:string,name:phone1;datatype:string,name:phone2;datatype:string,name:fax;datatype:string,name:email;datatype:string,name:reference;datatype:string,name:remark;datatype:blob,name:npwp;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:id;datatype:int,name:pracode;datatype:string,name:project_code;datatype:string,name:projecttitle;datatype:blob,name:qty;datatype:blob,name:customer;datatype:blob,name:receivedorder;datatype:blob,name:typeorder;datatype:blob,name:contractno;datatype:string,name:commdate;datatype:string,name:completiondate;datatype:blob,name:projectvalue;datatype:blob,name:status;datatype:blob,name:complete;datatype:string,name:sudahbaca;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:nik;datatype:string,name:firstname;datatype:string,name:lastname;datatype:string,name:initial;datatype:blob,name:department;datatype:string,name:status;datatype:string,name:username;datatype:string,name:password;datatype:string" />
+</info>

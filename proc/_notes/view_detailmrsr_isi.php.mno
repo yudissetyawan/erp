@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsapprovedby" value="name:id;datatype:int,name:fname;datatype:string,name:mname;datatype:string,name:lname;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:id;datatype:int,name:nomr;datatype:string,name:date;datatype:string,name:id_prodcode;datatype:int,name:prodcode;datatype:string,name:note;datatype:blob,name:requestby;datatype:string,name:requesterapprovaldate;datatype:date,name:passedby;datatype:string,name:parserapprovaldate;datatype:date,name:approvedby;datatype:string,name:approvaldate;datatype:date,name:status;datatype:blob,name:referencetype;datatype:string,name:status_approval;datatype:string,name:projectcode;datatype:string,name:productioncode;datatype:string" />
+	<infoitem key="UD_rsuser" value="name:fname;datatype:string,name:mname;datatype:string,name:lname;datatype:string" />
+	<infoitem key="UD_rsuserppic" value="name:id;datatype:int,name:nik;datatype:string,name:pfname;datatype:string,name:pmname;datatype:string,name:plname;datatype:string" />
+</info>

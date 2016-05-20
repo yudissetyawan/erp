@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsxdoccatg" value="name:id_doccatg;datatype:int,name:doccatg_name;datatype:string,name:initial_catg;datatype:string,name:note;datatype:string" />
+	<infoitem key="UD_rsxdoc" value="name:id;datatype:int,name:id_doccatg;datatype:int,name:id_dept;datatype:int,name:title;datatype:blob,name:date;datatype:date,name:doc_no;datatype:string,name:rev;datatype:string,name:remark;datatype:string,name:active;datatype:int,name:doccatg_name;datatype:string,name:idms;datatype:string,name:id_dms;datatype:int,name:fileupload;datatype:blob" />
+	<infoitem key="UD_rsdept" value="name:id;datatype:int,name:department;datatype:string" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsmanual" value="name:userlevel;datatype:string" />
+	<infoitem key="UD_rsdept" value="name:department;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_training" value="name:id;datatype:int,name:id_datapribadi;datatype:string,name:id_h_employee;datatype:int,name:kategori;datatype:string,name:jenis_training;datatype:string,name:date;datatype:blob,name:exp_date;datatype:blob,name:no_certificate;datatype:blob,name:provider;datatype:blob,name:remark;datatype:blob" />
+</info>

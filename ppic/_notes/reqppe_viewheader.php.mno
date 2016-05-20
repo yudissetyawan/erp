@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsdoheader" value="name:id;datatype:int,name:donumber;datatype:string,name:shipto;datatype:string,name:contractnumber;datatype:string,name:packinglistnumber;datatype:int,name:deliverypoint;datatype:blob,name:carier;datatype:blob,name:platno;datatype:string,name:managername;datatype:int,name:managerdate;datatype:date,name:securityname;datatype:int,name:securitydate;datatype:date,name:cariername;datatype:string,name:carierdate;datatype:date,name:recievername;datatype:blob,name:recieverdate;datatype:date,name:status;datatype:blob,name:manfname;datatype:string,name:manmname;datatype:string,name:manlname;datatype:string" />
+	<infoitem key="UD_rspkglist" value="name:no_pl;datatype:string" />
+	<infoitem key="UD_rssecname" value="name:secfname;datatype:string,name:secmname;datatype:string,name:seclname;datatype:string" />
+</info>

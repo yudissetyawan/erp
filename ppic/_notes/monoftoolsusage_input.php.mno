@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsapprovedby" value="name:id_inctools;datatype:int,name:id_tools;datatype:string,name:name_of_tools;datatype:string,name:brand;datatype:string,name:spec;datatype:string,name:descr;datatype:string,name:unit;datatype:string" />
+	<infoitem key="UD_rsmontool" value="name:id;datatype:int,name:fname;datatype:string,name:mname;datatype:string,name:lname;datatype:string" />
+	<infoitem key="UD_rsmonloc" value="name:id_location;datatype:int,name:location_of_tools;datatype:string,name:location_desc;datatype:string" />
+</info>

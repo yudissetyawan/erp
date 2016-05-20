@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsxdoccatg" value="name:id_doccatg;datatype:int,name:doccatg_name;datatype:string,name:initial_catg;datatype:string,name:note;datatype:string" />
+	<infoitem key="UD_rsxdoc" value="name:id;datatype:int,name:id_doccatg;datatype:int,name:id_dept;datatype:int,name:title;datatype:blob,name:date;datatype:date,name:doc_no;datatype:string,name:rev;datatype:string,name:remark;datatype:blob,name:active;datatype:int,name:doccatg_name;datatype:string,name:idms;datatype:string,name:id_dms;datatype:int,name:fileupload;datatype:blob" />
+	<infoitem key="UD_rsdept" value="name:id;datatype:int,name:department;datatype:string" />
+	<infoitem key="UD_rsqsop" value="name:qsop_id;datatype:int,name:loc_orplatform;datatype:string,name:project_name;datatype:string,name:qsop_no;datatype:string,name:ppha_no;datatype:string,name:qsop_title;datatype:blob,name:draft_issued;datatype:string,name:sentdraft_tocvx;datatype:string,name:review_on;datatype:string,name:sentfinal_tocvx;datatype:string,name:rev_addcomment;datatype:string,name:apprv_bycvx;datatype:string,name:soclz_bybkk;datatype:string,name:remark;datatype:blob,name:qsop_upload;datatype:blob,name:PlatformName;datatype:string" />
+	<infoitem key="UD_rsqsopcatg" value="name:id_doccatg;datatype:int,name:doccatg_name;datatype:string,name:initial_catg;datatype:string,name:note;datatype:string" />
+	<infoitem key="UD_rssite" value="name:PlatformID;datatype:int,name:AreaID;datatype:int,name:PlatformName;datatype:string,name:PlatformCode;datatype:string" />
+</info>

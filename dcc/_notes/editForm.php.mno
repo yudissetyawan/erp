@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:department;datatype:string,name:departmentdescription;datatype:blob,name:userlevel;datatype:string,name:departmenthead;datatype:string,name:urutan;datatype:int,name:DeptActiveYN;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:id_dept;datatype:int,name:doc_no;datatype:string,name:title;datatype:blob,name:rev;datatype:string,name:efect_date;datatype:string,name:catg_doc;datatype:string,name:interval_review;datatype:string,name:retention_time;datatype:string,name:dsop_note;datatype:blob" />
+	<infoitem key="UD_Recordset3" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_rsdept" value="name:id;datatype:int,name:department;datatype:string,name:departmentdescription;datatype:blob,name:userlevel;datatype:string,name:departmenthead;datatype:string,name:urutan;datatype:int,name:DeptActiveYN;datatype:int" />
+	<infoitem key="UD_rsform" value="name:id;datatype:int,name:id_dept;datatype:int,name:doc_no;datatype:string,name:title;datatype:blob,name:rev;datatype:string,name:efect_date;datatype:string,name:catg_doc;datatype:string,name:interval_review;datatype:string,name:retention_time;datatype:string,name:dsop_note;datatype:blob" />
+</info>

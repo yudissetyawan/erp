@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:project_code;datatype:string,name:contractno;datatype:string,name:customer;datatype:string,name:projectstatus;datatype:int,name:pracode;datatype:string,name:projectvalue;datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:nik;datatype:string,name:firstname;datatype:string,name:lastname;datatype:string,name:initial;datatype:blob,name:department;datatype:string,name:status;datatype:string,name:username;datatype:string,name:password;datatype:string" />
+	<infoitem key="UD_rsuser" value="name:id;datatype:int,name:nik;datatype:string" />
+	<infoitem key="UD_rsreadnotif" value="name:id_notif;datatype:int" />
+	<infoitem key="UD_rsunapprvproj" value="name:id;datatype:int,name:approvedby;datatype:int,name:approval;datatype:string,name:id;datatype:int" />
+</info>

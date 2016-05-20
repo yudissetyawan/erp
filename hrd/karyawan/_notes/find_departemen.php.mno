@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sql1" value="name:id;datatype:string,name:nik;datatype:string,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string,name:initial;datatype:blob,name:department;datatype:string,name:status;datatype:blob,name:username;datatype:string,name:password;datatype:string,name:code;datatype:string,name:userlevel;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:department;datatype:string,name:departmentdescription;datatype:blob,name:departmenthead;datatype:string" />
+</info>

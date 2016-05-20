@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsmcat" value="name:id_mcatg;datatype:int,name:mcatg_code;datatype:string,name:mcatg_descr;datatype:string,name:catg_notes;datatype:blob,name:mtrl_or_service;datatype:string,name:catg_stat;datatype:int" />
+	<infoitem key="UD_rsmmodel" value="name:id_mmodel;datatype:int,name:id_subcatg;datatype:int,name:mtrl_model;datatype:string,name:id_mstd;datatype:int,name:m_active;datatype:int" />
+	<infoitem key="UD_rsstd" value="name:id_mstd;datatype:int,name:mtrl_standard;datatype:string,name:id_mtype;datatype:int,name:s_active;datatype:int,name:s_descr;datatype:string" />
+	<infoitem key="UD_rstype" value="name:id_mtype;datatype:int,name:mtrl_type;datatype:string,name:active;datatype:int" />
+	<infoitem key="UD_rssubcatg" value="name:id_msubcatg;datatype:int,name:msubcatg_code;datatype:string,name:msubcatg_descr;datatype:string,name:id_mcatg;datatype:int,name:subcatg_notes;datatype:blob,name:subcatg_stat;datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:id_item;datatype:int,name:item_code;datatype:string,name:id_mmodel;datatype:string,name:descr_name;datatype:blob,name:id_mstd;datatype:string,name:descr_spec;datatype:blob,name:id_type;datatype:string,name:id_unit;datatype:string,name:brand;datatype:string,name:s_active;datatype:int,name:last_updated;datatype:string,name:updated_by;datatype:int" />
+	<infoitem key="UD_rsstat" value="name:id_mstat;datatype:int,name:m_status;datatype:string,name:stat_active;datatype:int" />
+	<infoitem key="UD_rsunit" value="name:id_unit;datatype:int,name:unit;datatype:string,name:unitdesc;datatype:blob,name:id_conv;datatype:int" />
+</info>

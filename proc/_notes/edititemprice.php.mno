@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsitemmr" value="name:id_item;datatype:int,name:item_code;datatype:string,name:descr_name;datatype:blob,name:id_mstd;datatype:string,name:descr_spec;datatype:blob,name:id_type;datatype:string,name:brand;datatype:string,name:itemprice;datatype:real,name:unit;datatype:string,name:mtrl_model;datatype:string,name:mcatg_descr;datatype:string,name:msubcatg_descr;datatype:string" />
+</info>

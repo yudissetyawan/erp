@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:bulan;datatype:string,name:tahun;datatype:int" />
+	<infoitem key="UD_Recordset3" value="name:id;datatype:int,name:lokasi;datatype:blob" />
+	<infoitem key="UD_rsuser" value="name:fname;datatype:string,name:mname;datatype:string,name:lname;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:idheader;datatype:int,name:employee;datatype:int,name:h1;datatype:int,name:h2;datatype:int,name:h3;datatype:int,name:h4;datatype:int,name:h5;datatype:int,name:h6;datatype:int,name:h7;datatype:int,name:h8;datatype:int,name:h9;datatype:int,name:h10;datatype:int,name:h11;datatype:int,name:h12;datatype:int,name:h13;datatype:int,name:h14;datatype:int,name:h15;datatype:int,name:h16;datatype:int,name:h17;datatype:int,name:h18;datatype:int,name:h19;datatype:int,name:h20;datatype:int,name:h21;datatype:int,name:h22;datatype:int,name:h23;datatype:int,name:h24;datatype:int,name:h25;datatype:int,name:h26;datatype:int,name:h27;datatype:int,name:h28;datatype:int,name:h29;datatype:int,name:h30;datatype:int,name:h31;datatype:int,name:firstname;datatype:string,name:nik;datatype:string,name:department;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+</info>

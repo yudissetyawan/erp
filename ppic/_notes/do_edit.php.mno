@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rscmbsecurity" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_rscmbmanager" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_rsdoheader" value="name:id;datatype:int,name:donumber;datatype:string,name:shipto;datatype:string,name:contractnumber;datatype:int,name:packinglistnumber;datatype:string,name:deliverypoint;datatype:blob,name:carier;datatype:blob,name:platno;datatype:string,name:managername;datatype:int,name:managerdate;datatype:date,name:securityname;datatype:int,name:securitydate;datatype:date,name:cariername;datatype:int,name:carierdate;datatype:date,name:recievername;datatype:blob,name:recieverdate;datatype:date,name:status;datatype:blob" />
+</info>

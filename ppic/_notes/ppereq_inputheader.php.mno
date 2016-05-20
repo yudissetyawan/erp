@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rscmbcontractno" value="name:contractno;datatype:string,name:id;datatype:int,name:project_code;datatype:string,name:projecttitle;datatype:blob" />
+	<infoitem key="UD_rscmbpkglist" value="name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string,name:id;datatype:int" />
+	<infoitem key="UD_rscmbsecurity" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_rscmbmanager" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_rscmbdistby" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_rscmbpassby" value="name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string,name:id;datatype:int" />
+	<infoitem key="UD_rscmbprojcd" value="name:id;datatype:int,name:project_code;datatype:string,name:projecttitle;datatype:blob" />
+</info>

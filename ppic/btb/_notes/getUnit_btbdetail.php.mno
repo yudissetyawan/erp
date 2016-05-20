@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rscmbunit" value="name:id_unit;datatype:int,name:unit;datatype:string,name:unitdesc;datatype:blob,name:id_conv;datatype:int" />
+	<infoitem key="UD_rsitemmr" value="name:id_item;datatype:int,name:qty;datatype:int,name:unit;datatype:int" />
+	<infoitem key="UD_rsjmlqtypo" value="name:jmlQtyPO;datatype:real" />
+	<infoitem key="UD_rsitempo" value="name:qty;datatype:int,name:unit;datatype:int" />
+</info>

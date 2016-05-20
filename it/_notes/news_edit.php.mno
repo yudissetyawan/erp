@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsdept" value="name:department;datatype:string" />
+	<infoitem key="UD_rsnews" value="name:id;datatype:int,name:news_title;datatype:string,name:news_datetime;datatype:timestamp,name:news_content;datatype:blob,name:issued_by;datatype:int,name:news_active;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+</info>

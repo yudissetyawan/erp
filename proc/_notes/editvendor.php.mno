@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:recordno;datatype:string,name:vendorname;datatype:string,name:vendoraddress;datatype:blob,name:city;datatype:string,name:zip;datatype:string,name:state;datatype:string,name:country;datatype:string,name:officephone;datatype:string,name:mobilephone;datatype:string,name:fax;datatype:string,name:email;datatype:string,name:email_2;datatype:string,name:contactperson;datatype:string,name:contactperson_2;datatype:string,name:company_profile;datatype:blob,name:registrationdate;datatype:string,name:product_service;datatype:string,name:evaluationdate;datatype:string,name:result;datatype:string,name:remark;datatype:blob,name:npwpno;datatype:string,name:vendorclass;datatype:string,name:vendorcategory;datatype:string,name:category;datatype:blob" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:categoryclass;datatype:string,name:category;datatype:blob,name:categorydescription;datatype:blob" />
+</info>

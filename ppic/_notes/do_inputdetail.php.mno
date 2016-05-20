@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rscmbmstat" value="name:id_mstat;datatype:int,name:m_status;datatype:string,name:stat_active;datatype:int" />
+	<infoitem key="UD_Recordset4" value="name:id;datatype:int,name:nomr;datatype:string,name:date;datatype:string,name:requestby;datatype:string,name:requesterapprovaldate;datatype:date,name:passedby;datatype:string,name:parserapprovaldate;datatype:date,name:approvedby;datatype:string,name:approvaldate;datatype:date,name:note;datatype:blob,name:referencetype;datatype:string,name:status;datatype:blob,name:id_prodcode;datatype:int,name:status_approval;datatype:string" />
+	<infoitem key="UD_rscmbmcatg" value="name:id_mcatg;datatype:int,name:mcatg_code;datatype:string,name:mcatg_descr;datatype:string,name:catg_notes;datatype:blob,name:mtrl_or_service;datatype:string,name:catg_stat;datatype:int" />
+</info>

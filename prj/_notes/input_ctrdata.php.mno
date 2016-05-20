@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:typeofwork;datatype:blob" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:project_title;datatype:blob,name:description;datatype:blob,name:contract_no;datatype:string,name:wo_no;datatype:string,name:aff_no;datatype:string,name:const_eng;datatype:blob,name:pic_name;datatype:blob,name:ctr_approval;datatype:blob,name:type_ofwork;datatype:blob,name:ctr_reqd;datatype:blob,name:cutofdate;datatype:blob,name:total_weight;datatype:string,name:total_planned;datatype:string,name:total_actual;datatype:string,name:total_variance;datatype:string,name:projectcode;datatype:string,name:status;datatype:int" />
+</info>

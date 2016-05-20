@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:id_si;datatype:int,name:id_wo;datatype:string,name:no_pl;datatype:string,name:date;datatype:date,name:no_pack;datatype:string,name:type_pack;datatype:string,name:carrier;datatype:string,name:plat_noreg;datatype:string,name:prepared_by;datatype:string,name:approved_by;datatype:string,name:recieved_by;datatype:string,name:prepared_date;datatype:date,name:approved_date;datatype:date,name:recieved_date;datatype:date" />
+	<infoitem key="UD_prepared" value="name:prepared_by;datatype:string,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:approved_by;datatype:string,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:no_si;datatype:string,name:date;datatype:date,name:to;datatype:blob,name:dest;datatype:string,name:ship;datatype:string,name:contract_no;datatype:string,name:schedule_dlv;datatype:date" />
+</info>

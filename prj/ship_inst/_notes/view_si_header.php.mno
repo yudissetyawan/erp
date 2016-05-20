@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:no_si;datatype:string,name:date;datatype:date,name:to;datatype:blob,name:dest;datatype:string,name:ship;datatype:string,name:schedule_dlv;datatype:date" />
+</info>

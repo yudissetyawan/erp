@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:nik;datatype:string,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string,name:initial;datatype:blob,name:department;datatype:string,name:jabatan;datatype:string,name:level;datatype:string,name:status;datatype:blob,name:username;datatype:string,name:password;datatype:string,name:code;datatype:string,name:userlevel;datatype:string,name:date_of_start;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:id;datatype:int,name:nik;datatype:string,name:total_hadir;datatype:string,name:total_izin;datatype:string,name:total_alpa;datatype:string,name:total_sakit;datatype:string,name:total_it;datatype:string,name:total_imp;datatype:string,name:total_ipa;datatype:string,name:status;datatype:string" />
+	<infoitem key="UD_cm" value="name:id;datatype:int,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_mr" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_am" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_tr" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_kom" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_st" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_tm" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_pm" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_gm" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_jeniscm" value="name:id;datatype:int,name:meeting;datatype:blob" />
+	<infoitem key="UD_jenispm" value="name:id;datatype:int,name:meeting;datatype:blob" />
+	<infoitem key="UD_jenisgm" value="name:id;datatype:int,name:meeting;datatype:blob" />
+	<infoitem key="UD_jenismr" value="name:id;datatype:int,name:meeting;datatype:blob" />
+	<infoitem key="UD_jenisam" value="name:id;datatype:int,name:meeting;datatype:blob" />
+	<infoitem key="UD_jenistr" value="name:id;datatype:int,name:meeting;datatype:blob" />
+	<infoitem key="UD_jeniskom" value="name:id;datatype:int,name:meeting;datatype:blob" />
+	<infoitem key="UD_jenistm" value="name:id;datatype:int,name:meeting;datatype:blob" />
+	<infoitem key="UD_jenisst" value="name:id;datatype:int,name:meeting;datatype:blob" />
+	<infoitem key="UD_h_employee" value="name:id;datatype:int,name:nik;datatype:string,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string,name:initial;datatype:blob,name:department;datatype:string,name:jabatan;datatype:string,name:level;datatype:string,name:status;datatype:blob,name:username;datatype:string,name:password;datatype:string,name:code;datatype:string,name:userlevel;datatype:string,name:date_of_start;datatype:string" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+	<infoitem key="UD_dms_PN" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+</info>

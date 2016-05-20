@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_q_ccomplaint" value="name:id;datatype:int" />
+	<infoitem key="UD_h_dept" value="name:id;datatype:int,name:department;datatype:string" />
+	<infoitem key="UD_h_employee_dari" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_dibuat_oleh" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_disetujui_oleh" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string,name:level;datatype:string" />
+	<infoitem key="UD_dianalisa_oleh" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_penanggung_jawab" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_diperiksa_oleh" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_qmr" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+</info>

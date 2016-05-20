@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsdoheader" value="name:id;datatype:int,name:ppereq_no;datatype:string,name:ppereq_date;datatype:string,name:note;datatype:blob,name:req_by_manager;datatype:int,name:req_sign_date;datatype:string,name:passed_by;datatype:int,name:passed_date;datatype:string,name:distrib_by;datatype:int,name:distrib_date;datatype:string,name:ppereq_active;datatype:string,name:manfname;datatype:string,name:manmname;datatype:string,name:manlname;datatype:string" />
+	<infoitem key="UD_rssecurityname" value="name:id;datatype:int,name:nik;datatype:string,name:fname;datatype:string,name:mname;datatype:string,name:lname;datatype:string" />
+	<infoitem key="UD_rscarriername" value="name:id;datatype:int,name:nik;datatype:string,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_rsppereqheader" value="name:id;datatype:int,name:ppereq_no;datatype:string,name:ppereq_date;datatype:string,name:id_projcode;datatype:int,name:note;datatype:blob,name:req_by_manager;datatype:int,name:req_sign_date;datatype:string,name:passed_by;datatype:int,name:passed_date;datatype:string,name:distrib_by;datatype:int,name:distrib_date;datatype:string,name:ppereq_active;datatype:string,name:manfname;datatype:string,name:manmname;datatype:string,name:manlname;datatype:string,name:project_code;datatype:string" />
+	<infoitem key="UD_rspassedby" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_rsdistribby" value="name:id;datatype:int,name:fname;datatype:string,name:mname;datatype:string,name:lname;datatype:string" />
+</info>

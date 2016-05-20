@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_po_sebelumnya" value="name:id;datatype:int,name:pono;datatype:string,name:podate;datatype:date,name:vendor;datatype:string,name:mrno;datatype:string,name:revisi;datatype:string,name:termsofpayment;datatype:string,name:termsshipping;datatype:string,name:shipmentloc;datatype:int,name:deliverytime;datatype:string,name:pc;datatype:int,name:note;datatype:blob,name:activeornot;datatype:int,name:tanggal_update;datatype:timestamp" />
+</info>

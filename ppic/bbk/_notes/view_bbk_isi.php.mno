@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_p_bbk_core" value="name:id;datatype:int,name:id_header;datatype:int,name:id_item;datatype:int,name:id_prod_code;datatype:int,name:qty;datatype:int,name:unit;datatype:int,name:keterangan;datatype:blob,name:item_code;datatype:string,name:mtrl_model;datatype:string,name:descr_name;datatype:blob,name:descr_spec;datatype:blob,name:brand;datatype:string,name:unit;datatype:string,name:id_type;datatype:string,name:projectcode;datatype:string,name:productioncode;datatype:string" />
+</info>

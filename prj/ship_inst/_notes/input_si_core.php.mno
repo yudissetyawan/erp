@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset2" value="name:id_unit;datatype:int,name:unit;datatype:string,name:unitdesc;datatype:blob" />
+	<infoitem key="UD_Recordset1" value="name:id_item;datatype:int,name:item_code;datatype:string,name:id_mmodel;datatype:string,name:descr_name;datatype:blob,name:id_mstd;datatype:string,name:descr_spec;datatype:blob,name:id_type;datatype:string,name:id_unit;datatype:string,name:brand;datatype:string,name:itemprice;datatype:real,name:lockprice;datatype:string,name:s_active;datatype:int,name:last_updated;datatype:string,name:updated_by;datatype:int,name:mtrl_model;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:id;datatype:int,name:no_si;datatype:string,name:date;datatype:date,name:to;datatype:blob,name:dest;datatype:string,name:ship;datatype:string,name:po_no;datatype:string,name:po_date;datatype:date,name:contract_no;datatype:string,name:wo_no;datatype:int,name:schedule_dlv;datatype:date,name:req_by;datatype:string,name:recv_by;datatype:string,name:apprv_by;datatype:string,name:req_date;datatype:date,name:recv_date;datatype:date,name:apprv_date;datatype:date" />
+	<infoitem key="UD_unit" value="name:id_unit;datatype:int,name:unit;datatype:string,name:unitdesc;datatype:blob,name:id_conv;datatype:int,name:unitactive;datatype:int" />
+</info>

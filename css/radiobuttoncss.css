@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+    #el01 {width:100%} /* Width */
+    #el02 { /* Text and background colour, blue on light gray */
+    color:#00f;
+    background-color:#ddd;
+    }
+    #el03 {background:url(/i/icon-info.gif) no-repeat 100% 50%} /* Background image */
+    #el04 {border-width:6px} /* Border width */
+    #el05 {border:2px dotted #00f} /* Border width, style and colour */
+    #el06 {border:none} /* No border */
+    #el07 {padding:1em} /* Increase padding */
+    #el08 { /* Change width and height */
+    width:4em;
+    height:4em;
+    }

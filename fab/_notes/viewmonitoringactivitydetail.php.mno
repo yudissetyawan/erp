@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:description;datatype:string,name:spec;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int" />
+	<infoitem key="UD_mradata" value="name:document_no;datatype:string,name:date;datatype:date,name:revisi;datatype:string,name:preparename;datatype:string,name:approvedname;datatype:string,name:jobtitle;datatype:blob,name:customername;datatype:string,name:project_code;datatype:string,name:productioncode;datatype:string" />
+</info>

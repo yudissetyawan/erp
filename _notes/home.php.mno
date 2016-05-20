@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsunapprvproj" value="name:id;datatype:int,name:approvedby;datatype:int,name:approval;datatype:string,name:id;datatype:int" />
+	<infoitem key="UD_rsreadnotif" value="name:id_notif;datatype:int" />
+</info>

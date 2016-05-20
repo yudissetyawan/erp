@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:employee;datatype:int,name:tanggal;datatype:string,name:keperluan;datatype:blob,name:jenis;datatype:int,name:approval;datatype:int,name:id_inisial;datatype:string,name:id_empdept;datatype:string,name:sudah_bacaYN;datatype:string,name:waktu_notif;datatype:timestamp,name:isi;datatype:blob" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:employee;datatype:int,name:tanggal;datatype:string,name:keperluan;datatype:blob,name:jenis;datatype:int,name:approval;datatype:int,name:id_inisial;datatype:string,name:id_empdept;datatype:string,name:sudah_bacaYN;datatype:string,name:waktu_notif;datatype:timestamp,name:isi;datatype:blob" />
+</info>

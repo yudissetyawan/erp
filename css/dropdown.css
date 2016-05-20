@@ -1,0 +1,74 @@
+/* CSS untuk drop down menu dimulai */
+ul {
+	list-style:none;
+	padding:0px;
+	margin:0px
+}
+
+ul li {
+	display:inline;
+	float:center;
+}
+
+ul li a {
+	/* color:#FFF; */
+	background:#FFF; /* #990E00; */
+	margin-right:5px;
+	font-weight:bold;
+	/* font-size:12px;
+	font-family:verdana; */
+	text-decoration:none;
+	display:block;
+	/* width:120px; */
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	/* border: 1px solid #560E00; */
+}
+
+ul li a:hover {
+	color:#000; /* #CCCCCC; */
+	background:#FFF; /* #560E00; */
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	/* width:120px; */
+	text-align:center;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	/* border: 1px solid #000000; */
+}
+
+.imgside {
+	margin-top: 10px;
+}
+
+ul li.sublinks a {
+	color:#000000;
+	background:#f6f6f6;
+	border-bottom:1px solid #CCCCCC;
+	font-weight:normal;
+	text-decoration:none;
+	display:block;
+	width:125px;
+	text-align:center;
+	margin-top:2px;
+}
+
+ul li.sublinks a:hover {
+	color:#000000;
+	background:#DBEAF9; /* #8DB4E3; #FFEFC6; */
+	font-weight:normal;
+	text-decoration:none;
+	display:block;
+	width:125px;
+	text-align:center;
+}
+
+ul li.sublinks	{
+	display:none;
+}
+
+/* CSS drop down menu sederhana end */

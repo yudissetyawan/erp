@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsunit" value="name:id_conv;datatype:int,name:id_unit;datatype:int,name:operator;datatype:string,name:nominal_conv;datatype:string,name:to_idunit;datatype:int,name:conv_note;datatype:blob,name:unit;datatype:string" />
+	<infoitem key="UD_rsunitconv" value="name:id_conv;datatype:int,name:id_unit;datatype:int,name:operator;datatype:string,name:nominal_conv;datatype:string,name:to_idunit;datatype:int,name:conv_note;datatype:blob,name:unit;datatype:string" />
+	<infoitem key="UD_rsunitconvconv" value="name:id_conv;datatype:int,name:id_unit;datatype:int,name:operator;datatype:string,name:nominal_conv;datatype:string,name:to_idunit;datatype:int,name:conv_note;datatype:blob,name:unit;datatype:string" />
+</info>

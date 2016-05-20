@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rscmbmcatg" value="name:id_mcatg;datatype:int,name:mcatg_code;datatype:string,name:mcatg_descr;datatype:string,name:catg_notes;datatype:blob,name:mtrl_or_service;datatype:string,name:catg_stat;datatype:int" />
+</info>

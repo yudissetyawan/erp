@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id_mcatg;datatype:int,name:mcatg_code;datatype:string,name:mcatg_descr;datatype:string,name:catg_notes;datatype:string,name:mtrl_or_service;datatype:string,name:catg_stat;datatype:int" />
+	<infoitem key="UD_rssubcatg" value="name:id_msubcatg;datatype:int,name:msubcatg_code;datatype:string,name:msubcatg_descr;datatype:string,name:id_mcatg;datatype:int" />
+</info>

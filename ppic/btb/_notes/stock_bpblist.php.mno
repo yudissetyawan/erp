@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_bpb" value="name:id;datatype:int,name:bpb_idheader;datatype:int,name:id_item;datatype:int,name:qty;datatype:int,name:prod_code;datatype:string,name:bpb_itemnote;datatype:string" />
+</info>

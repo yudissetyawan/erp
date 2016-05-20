@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:description;datatype:string,name:spec;datatype:string,name:thickness;datatype:real,name:width;datatype:real,name:length;datatype:real,name:unit;datatype:int,name:unitweight;datatype:real,name:qtyweight;datatype:real,name:qty;datatype:int,name:totalweight;datatype:real,name:totallength;datatype:real,name:paintarea;datatype:real,name:totalpaintarea;datatype:real,name:headercorebom;datatype:int" />
+	<infoitem key="UD_bomhdr" value="name:id;datatype:int,name:drawingno;datatype:string,name:createdby;datatype:string,name:location;datatype:string,name:customer;datatype:string,name:projectcode;datatype:string,name:productioncode;datatype:string,name:revision;datatype:string,name:date;datatype:timestamp,name:tw;datatype:real,name:tlgh;datatype:real,name:checkedby;datatype:string,name:approvedby;datatype:string,name:status;datatype:int,name:type;datatype:string,name:bomfile;datatype:string,name:submit_stat;datatype:int" />
+	<infoitem key="UD_bomhdrcore" value="name:id;datatype:int,name:description;datatype:string,name:spec;datatype:int,name:id_header;datatype:int" />
+	<infoitem key="UD_spesifikasi" value="name:spec;datatype:string" />
+	<infoitem key="UD_pjcode" value="name:id;datatype:int,name:description;datatype:string,name:spec;datatype:int,name:id_header;datatype:int" />
+	<infoitem key="UD_core" value="name:id;datatype:int,name:description;datatype:string,name:spec;datatype:string,name:thickness;datatype:real,name:width;datatype:real,name:length;datatype:real,name:unit;datatype:int,name:unitweight;datatype:real,name:qty;datatype:int,name:paintarea;datatype:real,name:remark;datatype:string,name:headercorebom;datatype:int" />
+	<infoitem key="UD_hdrcore" value="name:id;datatype:int,name:description;datatype:string,name:spec;datatype:int,name:id_header;datatype:int" />
+</info>

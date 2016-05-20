@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:materialname;datatype:string,name:id;datatype:int,name:sumTW;datatype:real,name:sumLgh;datatype:real,name:sumPA;datatype:real,name:sumTPA;datatype:real" />
+	<infoitem key="UD_Recordset2" value="name:drawingno;datatype:string,name:makername;datatype:string,name:customername;datatype:string,name:location;datatype:string,name:tw;datatype:real,name:tlgh;datatype:real,name:productioncode;datatype:string,name:project_code;datatype:string,name:revision;datatype:string,name:date;datatype:timestamp,name:checkedby;datatype:string,name:firstname;datatype:string,name:approvedby;datatype:string" />
+</info>

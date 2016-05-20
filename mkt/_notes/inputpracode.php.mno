@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:customername;datatype:blob,name:address1;datatype:blob,name:adress2;datatype:blob,name:city;datatype:string,name:zip;datatype:string,name:country;datatype:string,name:phone1;datatype:string,name:phone2;datatype:string,name:fax;datatype:string,name:email;datatype:string,name:reference;datatype:string,name:remark;datatype:blob,name:npwp;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:pracode;datatype:string" />
+	<infoitem key="UD_rsidempdept" value="name:id;datatype:int,name:department;datatype:string,name:userlevel;datatype:string" />
+</info>

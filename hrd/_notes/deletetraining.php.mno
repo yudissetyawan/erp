@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:id_datapribadi;datatype:string,name:jk;datatype:blob,name:status;datatype:blob,name:noktp;datatype:blob,name:berlakuktp;datatype:blob,name:tempat_lahir;datatype:blob,name:tgl_lahir;datatype:blob,name:alamat;datatype:blob,name:poscode;datatype:string,name:notlp;datatype:blob,name:nohp;datatype:blob,name:agama;datatype:blob,name:berat;datatype:string,name:tinggi;datatype:string,name:ukuran_baju;datatype:string,name:ukuran_celana;datatype:int,name:Coverall;datatype:string,name:ukuran_sepatu;datatype:int,name:pendidikan;datatype:blob,name:jurusan;datatype:string,name:namapend;datatype:string,name:nokpj;datatype:string,name:gol_darah;datatype:string,name:no_npwp;datatype:string,name:email;datatype:string" />
+</info>

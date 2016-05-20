@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset3" value="name:id;datatype:int,name:id_headerwpr;datatype:int,name:tanggal;datatype:blob,name:cumm_plan;datatype:real,name:cumm_actual;datatype:real,name:stat;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:id_headerwpr;datatype:int,name:sub_description;datatype:blob" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:project_title;datatype:blob,name:description;datatype:blob,name:contract_no;datatype:string,name:wo_no;datatype:string,name:aff_no;datatype:string,name:const_eng;datatype:blob,name:pic_name;datatype:blob,name:ctr_approval;datatype:blob,name:type_ofwork;datatype:blob,name:ctr_reqd;datatype:blob,name:cutofdate;datatype:blob,name:total_weight;datatype:string,name:total_planned;datatype:string,name:total_actual;datatype:string,name:total_variance;datatype:string,name:ctr_no;datatype:string,name:location;datatype:blob,name:startdate;datatype:blob,name:finishdate;datatype:blob,name:ctr_issueddate;datatype:blob,name:projectcode;datatype:string,name:status;datatype:int" />
+	<infoitem key="UD_Recordset4" value="name:id;datatype:int,name:id_headerwpr;datatype:int,name:tanggal;datatype:blob,name:cumm_plan;datatype:real,name:cumm_actual;datatype:real,name:stat;datatype:int" />
+	<infoitem key="UD_e9" value="name:id_core_ctrdata;datatype:int,name:actual;datatype:real,name:id_headerwpr;datatype:string" />
+	<infoitem key="UD_e10" value="name:id_core_ctrdata;datatype:int,name:actual;datatype:real,name:id_headerwpr;datatype:string" />
+	<infoitem key="UD_p11" value="name:id_core_ctrdata;datatype:int,name:actual;datatype:real,name:id_headerwpr;datatype:string" />
+	<infoitem key="UD_f12" value="name:id_core_ctrdata;datatype:int,name:actual;datatype:real,name:id_headerwpr;datatype:string" />
+	<infoitem key="UD_f13" value="name:id_core_ctrdata;datatype:int,name:actual;datatype:real,name:id_headerwpr;datatype:string" />
+	<infoitem key="UD_f14" value="name:id_core_ctrdata;datatype:int,name:actual;datatype:real,name:id_headerwpr;datatype:string" />
+	<infoitem key="UD_m15" value="name:id_core_ctrdata;datatype:int,name:actual;datatype:real,name:id_headerwpr;datatype:string" />
+	<infoitem key="UD_Recordset5" value="name:id;datatype:int,name:id_ctr;datatype:int,name:id_wpr_header;datatype:int,name:engineering;datatype:real,name:eng_services;datatype:real,name:proj_services;datatype:real,name:procurement;datatype:real,name:material_civ_structure;datatype:real,name:material_piping;datatype:real,name:material_electrical_inst;datatype:real,name:fabrication;datatype:real,name:fab_activities;datatype:real,name:painting_sandblastactivities;datatype:real,name:ndt;datatype:real,name:instalation;datatype:real,name:inst_civil_structure;datatype:real,name:inst_piping;datatype:real,name:inst_electric_inst;datatype:real,name:miscellanous;datatype:real,name:personal_dayrate;datatype:real,name:equip_dayrate;datatype:real,name:land_transportation;datatype:real,name:totalcost;datatype:real" />
+</info>

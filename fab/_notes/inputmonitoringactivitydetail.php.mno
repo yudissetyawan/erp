@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset2" value="name:nocrf;datatype:string,name:id;datatype:int,name:crf;datatype:int,name:date;datatype:date,name:revisi;datatype:string,name:preparedby;datatype:int,name:approvedby;datatype:int,name:status;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:document_no;datatype:string,name:crf;datatype:int,name:date;datatype:date,name:revisi;datatype:string,name:preparedby;datatype:int,name:approvedby;datatype:int,name:status;datatype:string,name:submit_stat;datatype:int" />
+</info>

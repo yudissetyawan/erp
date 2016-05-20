@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsdoheader" value="name:id;datatype:int,name:donumber;datatype:string,name:shipto;datatype:string,name:contractnumber;datatype:string,name:packinglistnumber;datatype:int,name:deliverypoint;datatype:blob,name:carier;datatype:blob,name:platno;datatype:string,name:managername;datatype:int,name:managerdate;datatype:date,name:securityname;datatype:int,name:securitydate;datatype:date,name:cariername;datatype:string,name:carierdate;datatype:date,name:recievername;datatype:blob,name:recieverdate;datatype:date,name:status;datatype:blob" />
+	<infoitem key="UD_rsdocore" value="name:id;datatype:int,name:doheader;datatype:int,name:id_item;datatype:int,name:qty;datatype:string,name:id_unit;datatype:string,name:dimension;datatype:string,name:remark;datatype:blob,name:mtrl_model;datatype:string,name:descr_name;datatype:blob,name:brand;datatype:string,name:id_type;datatype:string,name:itemunit;datatype:string" />
+	<infoitem key="UD_rsitemdescr" value="name:item_code;datatype:string,name:descr_name;datatype:blob,name:id_mstd;datatype:string,name:descr_spec;datatype:blob,name:id_type;datatype:string,name:brand;datatype:string,name:mtrl_model;datatype:string" />
+</info>

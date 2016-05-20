@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_org_doc" value="name:id;datatype:int,name:id_dept;datatype:int,name:title;datatype:blob,name:date;datatype:date,name:doc_no;datatype:string,name:rev;datatype:int,name:remark;datatype:blob,name:active;datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:id_dept;datatype:int,name:title;datatype:blob,name:date;datatype:date,name:doc_no;datatype:string,name:rev;datatype:int,name:remark;datatype:blob,name:active;datatype:int" />
+	<infoitem key="UD_d_org_chart" value="name:id;datatype:int,name:id_dept;datatype:int,name:title;datatype:blob,name:date;datatype:date,name:doc_no;datatype:string,name:rev;datatype:string,name:remark;datatype:blob,name:active;datatype:int,name:department;datatype:string" />
+	<infoitem key="UD_dms" value="name:id;datatype:int,name:idms;datatype:string,name:id_departemen;datatype:string,name:nocrf;datatype:string,name:inisial_pekerjaan;datatype:string,name:date;datatype:string,name:fileupload;datatype:blob,name:keterangan;datatype:blob" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_price_vendor" value="name:id;datatype:int,name:itemno;datatype:string,name:unitprice;datatype:string" />
+</info>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rscmbcontractno" value="name:contractno;datatype:string,name:id;datatype:int,name:project_code;datatype:string,name:projecttitle;datatype:blob" />
+	<infoitem key="UD_rscmbpkglist" value="name:id;datatype:int,name:no_pl;datatype:string" />
+	<infoitem key="UD_rscmbsecurity" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_rsdoheader" value="name:id;datatype:int,name:donumber;datatype:string,name:shipto;datatype:string,name:contractnumber;datatype:string,name:packinglistnumber;datatype:int,name:deliverypoint;datatype:blob,name:carier;datatype:blob,name:platno;datatype:string,name:managername;datatype:int,name:managerdate;datatype:date,name:securityname;datatype:int,name:securitydate;datatype:date,name:cariername;datatype:string,name:carierdate;datatype:date,name:recievername;datatype:blob,name:recieverdate;datatype:date,name:status;datatype:blob" />
+	<infoitem key="UD_rscmbmanager" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_rscmbpassby" value="name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string,name:id;datatype:int" />
+	<infoitem key="UD_rscmbdistby" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_rsppereqheader" value="name:id;datatype:int,name:ppereq_no;datatype:string,name:ppereq_date;datatype:string,name:id_projcode;datatype:int,name:note;datatype:blob,name:req_by_manager;datatype:int,name:req_sign_date;datatype:string,name:passed_by;datatype:int,name:passed_date;datatype:string,name:distrib_by;datatype:int,name:distrib_date;datatype:string,name:ppereq_active;datatype:string" />
+	<infoitem key="UD_rscmbprojcd" value="name:id;datatype:int,name:project_code;datatype:string,name:projecttitle;datatype:blob" />
+</info>

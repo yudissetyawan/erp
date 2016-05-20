@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:id_groupwork;datatype:int,name:drawing_no;datatype:string,name:description;datatype:blob,name:handle_by;datatype:string,name:rev_0;datatype:date,name:rev_1;datatype:date,name:rev_2;datatype:date,name:rev_3;datatype:date,name:rev_4;datatype:date,name:owner;datatype:string,name:location;datatype:blob,name:proj_code;datatype:string,name:binder_code;datatype:string" />
+</info>

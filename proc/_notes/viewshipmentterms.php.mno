@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:pono;datatype:string,name:podate;datatype:date,name:vendor;datatype:string,name:mrno;datatype:string,name:revisi;datatype:string,name:termsofpayment;datatype:string,name:termsshipping;datatype:string,name:shipmentloc;datatype:int,name:deliverytime;datatype:string,name:pc;datatype:int,name:note;datatype:blob,name:activeornot;datatype:int,name:tanggal_update;datatype:timestamp,name:nomr;datatype:string,name:vendorname;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:nomr;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:id;datatype:int,name:vendorname;datatype:string" />
+	<infoitem key="UD_rsshipmentterms" value="name:id_sterm;datatype:int,name:shipment_term;datatype:string,name:term_descr;datatype:blob,name:activeYN;datatype:string" />
+</info>

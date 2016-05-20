@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsmontools" value="name:id_inctools;datatype:int,name:id_tools;datatype:string,name:name_of_tools;datatype:string,name:brand;datatype:string,name:spec;datatype:string,name:descr;datatype:string,name:unit;datatype:string" />
+	<infoitem key="UD_rsmonloc" value="name:id_location;datatype:int,name:location_of_tools;datatype:string,name:location_desc;datatype:string" />
+	<infoitem key="UD_rswldengine" value="name:id;datatype:int,name:merk;datatype:blob,name:thn_prod;datatype:string,name:no_mesin;datatype:blob,name:serial_no;datatype:blob,name:skid_no;datatype:blob,name:lokasi;datatype:blob,name:owner;datatype:blob,name:engine_condition;datatype:blob,name:project;datatype:string,name:kode_proyek;datatype:string,name:keterangan;datatype:blob,name:status;datatype:blob,name:issued_user;datatype:int,name:last_update;datatype:string,name:engineactiveYN;datatype:int" />
+	<infoitem key="UD_rsusr" value="name:fname;datatype:string,name:mname;datatype:string,name:lname;datatype:string" />
+	<infoitem key="UD_rsmonoftoolsusage" value="name:id_usage;datatype:int,name:id_inctools;datatype:int,name:outgoing_date;datatype:string,name:outgoing_qty;datatype:string,name:incoming_date;datatype:string,name:incoming_qty;datatype:string,name:id_location;datatype:int,name:TBorSCMorRC;datatype:string,name:proj_code;datatype:string,name:remarks;datatype:blob,name:activeYN;datatype:string,name:last_update;datatype:string,name:update_by;datatype:int" />
+</info>

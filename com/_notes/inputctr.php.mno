@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:pracode;datatype:string,name:project_code;datatype:string,name:projecttitle;datatype:blob,name:qty;datatype:blob,name:customer;datatype:blob,name:receivedorder;datatype:blob,name:typeorder;datatype:blob,name:contractno;datatype:string,name:commdate;datatype:string,name:completiondate;datatype:blob,name:projectvalue;datatype:blob,name:status;datatype:blob,name:complete;datatype:string,name:fileupload;datatype:string,name:code;datatype:string" />
+	<infoitem key="UD_rsidempdept" value="name:id;datatype:int,name:department;datatype:string,name:userlevel;datatype:string" />
+</info>

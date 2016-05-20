@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:name;datatype:string,name:empID;datatype:int,name:email;datatype:string,name:ph;datatype:string,name:type;datatype:string,name:comment;datatype:blob,name:timeofcomment;datatype:string,name:respond;datatype:blob,name:timeofrespond;datatype:string,name:status_respond;datatype:int" />
+	<infoitem key="UD_info" value="name:id;datatype:int,name:name;datatype:string,name:empID;datatype:int,name:email;datatype:string,name:ph;datatype:string,name:type;datatype:string,name:comment;datatype:blob,name:timeofcomment;datatype:string,name:respond;datatype:blob,name:timeofrespond;datatype:string,name:status_respond;datatype:int" />
+	<infoitem key="UD_suggest" value="name:id;datatype:int,name:name;datatype:string,name:empID;datatype:int,name:email;datatype:string,name:ph;datatype:string,name:type;datatype:string,name:comment;datatype:blob,name:timeofcomment;datatype:string,name:respond;datatype:blob,name:timeofrespond;datatype:string,name:status_respond;datatype:int" />
+</info>

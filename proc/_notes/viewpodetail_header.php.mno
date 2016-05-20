@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:pono;datatype:string,name:podate;datatype:date,name:budgetcode;datatype:string,name:vendor;datatype:string,name:ref;datatype:string,name:mrno;datatype:string,name:revisi;datatype:string,name:termsofpayment;datatype:string,name:termsshipping;datatype:string,name:shipmentloc;datatype:int,name:deliverytime;datatype:string,name:pc;datatype:int,name:note;datatype:blob,name:activeornot;datatype:int,name:tanggal_update;datatype:timestamp,name:orderedby;datatype:int,name:checkedby;datatype:int,name:financeby;datatype:int,name:approvedby;datatype:int,name:vendorname;datatype:string,name:vendoraddress;datatype:blob,name:officephone;datatype:string,name:email;datatype:string,name:nomr;datatype:string,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+</info>

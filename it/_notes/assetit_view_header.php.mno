@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:id_material;datatype:int,name:jumlah;datatype:int,name:foto;datatype:blob,name:lokasi;datatype:string,name:keterangan;datatype:blob" />
+	<infoitem key="UD_it_asset_header" value="name:id;datatype:int,name:id_material;datatype:int,name:jumlah;datatype:int,name:foto;datatype:blob,name:lokasi;datatype:string,name:no_inventaris;datatype:string,name:keterangan;datatype:blob,name:tgl_update;datatype:string,name:item_code;datatype:string,name:descr_name;datatype:blob,name:descr_spec;datatype:blob,name:id_type;datatype:string,name:id_unit;datatype:string,name:brand;datatype:string,name:mtrl_model;datatype:string,name:unit;datatype:string" />
+	<infoitem key="UD_fn_asset_inv" value="name:id;datatype:int,name:id_material;datatype:int,name:no_inventaris;datatype:string,name:jumlah;datatype:int,name:foto;datatype:blob,name:lokasi;datatype:string,name:dept_in_charge;datatype:string,name:keterangan;datatype:blob,name:tgl_update;datatype:string,name:item_code;datatype:string,name:descr_name;datatype:blob,name:descr_spec;datatype:blob,name:id_type;datatype:string,name:id_unit;datatype:string,name:brand;datatype:string,name:mtrl_model;datatype:string,name:unit;datatype:string" />
+</info>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:month;datatype:string,name:foreman;datatype:string,name:supervisor;datatype:string,name:prepare_by;datatype:string,name:checked_by;datatype:string,name:approved_by;datatype:string,name:firstname;datatype:string,name:lastname;datatype:string,name:note;datatype:blob" />
+	<infoitem key="UD_Recordset2" value="name:id;datatype:int,name:idheader;datatype:int,name:status;datatype:string,name:employee;datatype:int,name:h1;datatype:string,name:h2;datatype:string,name:h3;datatype:string,name:h4;datatype:string,name:h5;datatype:string,name:h6;datatype:string,name:h7;datatype:string,name:h8;datatype:string,name:h9;datatype:string,name:h10;datatype:string,name:h11;datatype:string,name:h12;datatype:string,name:h13;datatype:string,name:h14;datatype:string,name:h15;datatype:string,name:h16;datatype:string,name:h17;datatype:string,name:h18;datatype:string,name:h19;datatype:string,name:h20;datatype:string,name:h21;datatype:string,name:h22;datatype:string,name:h23;datatype:string,name:h24;datatype:string,name:h25;datatype:string,name:h26;datatype:string,name:h27;datatype:string,name:h28;datatype:string,name:h29;datatype:string,name:h30;datatype:string,name:h31;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:id;datatype:int,name:kode_lokasi;datatype:string,name:lokasi;datatype:blob" />
+	<infoitem key="UD_rsuser" value="name:fname;datatype:string,name:mname;datatype:string,name:lname;datatype:string" />
+	<infoitem key="UD_Recordset4" value="name:id;datatype:int,name:lokasi;datatype:blob" />
+</info>

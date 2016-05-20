@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsntf" value="name:inisial_pekerjaan;datatype:string,name:nama_pekerjaan;datatype:string,name:id_inisial;datatype:string" />
+	<infoitem key="UD_rsemply" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_rs" value="name:inisial_pekerjaan;datatype:string,name:nama_pekerjaan;datatype:string,name:id_inisial;datatype:string" />
+	<infoitem key="UD_rsmanual" value="name:userlevel;datatype:string" />
+</info>

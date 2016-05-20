@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsmcat" value="name:id_mcatg;datatype:int,name:mtrl_category;datatype:string" />
+	<infoitem key="UD_rsmmodel" value="name:id_mmodel;datatype:int,name:id_subcatg;datatype:int,name:mtrl_model;datatype:string,name:id_mstd;datatype:int,name:m_active;datatype:int" />
+	<infoitem key="UD_rsstd" value="name:id_mstd;datatype:int,name:mtrl_standard;datatype:string,name:id_mtype;datatype:int,name:s_active;datatype:int,name:s_descr;datatype:string" />
+	<infoitem key="UD_rstype" value="name:id_mtype;datatype:int,name:mtrl_type;datatype:string,name:active;datatype:int" />
+</info>
