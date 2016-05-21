@@ -37,105 +37,61 @@ if (isset($_SERVER['QUERY_STRING'])) {
 }
 
 if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
-  $updateSQL = sprintf("UPDATE d_sop SET doc_no=%s, title=%s, rev=%s, efect_date=%s, catg_doc=%s, interval_review=%s, retention_time=%s WHERE id=%s AND id_dept=%s",
-                       GetSQLValueString($_POST['doc_no'], "text"),
+  $updateSQL = sprintf("UPDATE d_sop SET id_dept=%s, title=%s, rev=%s, efect_date=%s, catg_doc=%s, interval_review=%s, retention_time=%s WHERE doc_no=%s",
+                       GetSQLValueString($_POST['id_dept'], "int"),
                        GetSQLValueString($_POST['title'], "text"),
                        GetSQLValueString($_POST['rev'], "text"),
-                       GetSQLValueString($_POST['efect_date'], "date"),
+                       GetSQLValueString($_POST['efect_date'], "text"),
                        GetSQLValueString($_POST['doc_no'], "text"),
                        GetSQLValueString($_POST['interval_review'], "text"),
                        GetSQLValueString($_POST['retention_time'], "text"),
-                       GetSQLValueString($_POST['idms'], "int"),
-                       GetSQLValueString($_POST['id_dept'], "int"));
+                       GetSQLValueString($_POST['doc_no'], "text"));
 
   mysql_select_db($database_core, $core);
   $Result1 = mysql_query($updateSQL, $core) or die(mysql_error());
 }
 
-if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
-	if ($_POST['nama_fileps'] == '') {
-		$nfile = $_POST['nama_fileps2'];
-	} else {
-		$nfile = $_POST['nama_fileps'];
-	}
-	/* echo "<script>alert(\"$nfile\");</script>"; */
-
-  $updateSQL = sprintf("UPDATE dms SET idms=%s, id_departemen=%s, inisial_pekerjaan=%s, `date`=%s, fileupload=%s, keterangan=%s WHERE id=%s",
-                       GetSQLValueString($_POST['id'], "text"),
-                       GetSQLValueString($_POST['id_dept'], "text"),
-                       GetSQLValueString($_POST['inisial_pekerjaan'], "text"),
-                       GetSQLValueString($_POST['efect_date'], "text"),
-                       GetSQLValueString($nfile, "text"),
-                       GetSQLValueString($_POST['title'], "text"),
-                       GetSQLValueString($_POST['id'], "int"));
-
-  mysql_select_db($database_core, $core);
-  $Result1 = mysql_query($updateSQL, $core) or die(mysql_error());
-  
-    echo "<script>
-  	alert(\"Data has been saved\");
-	self.close();
-	
-	window.onunload = refreshParent;
-    function refreshParent() {
-        window.opener.location.reload();
-    }
-  </script>";
-}
 
 mysql_select_db($database_core, $core);
-$query_Recordset1 = "SELECT * FROM h_department ORDER BY department ASC";
+$query_rsdept = "SELECT * FROM h_department ORDER BY urutan ASC";
+$rsdept = mysql_query($query_rsdept, $core) or die(mysql_error());
+$row_rsdept = mysql_fetch_assoc($rsdept);
+$totalRows_rsdept = mysql_num_rows($rsdept);
+
+$colname_Recordset1 = "-1";
+if (isset($_GET['data'])) {
+  $colname_Recordset1 = $_GET['data'];
+}
+mysql_select_db($database_core, $core);
+$query_Recordset1 = sprintf("SELECT * FROM d_sop WHERE doc_no = %s", GetSQLValueString($colname_Recordset1, "text"));
 $Recordset1 = mysql_query($query_Recordset1, $core) or die(mysql_error());
 $row_Recordset1 = mysql_fetch_assoc($Recordset1);
 $totalRows_Recordset1 = mysql_num_rows($Recordset1);
 
-$colname_Recordset2 = "-1";
-if (isset($_GET['data'])) {
-  $colname_Recordset2 = $_GET['data'];
-}
-mysql_select_db($database_core, $core);
-$query_Recordset2 = sprintf("SELECT * FROM d_sop WHERE doc_no = %s", GetSQLValueString($colname_Recordset2, "text"));
-$Recordset2 = mysql_query($query_Recordset2, $core) or die(mysql_error());
-$row_Recordset2 = mysql_fetch_assoc($Recordset2);
-$totalRows_Recordset2 = mysql_num_rows($Recordset2);
-
-$colname_Recordset3 = "-1";
-if (isset($_GET['data'])) {
-  $colname_Recordset3 = $_GET['data'];
-}
-mysql_select_db($database_core, $core);
-$query_Recordset3 = sprintf("SELECT * FROM dms WHERE idms = %s", GetSQLValueString($colname_Recordset3, "text"));
-$Recordset3 = mysql_query($query_Recordset3, $core) or die(mysql_error());
-$row_Recordset3 = mysql_fetch_assoc($Recordset3);
-$totalRows_Recordset3 = mysql_num_rows($Recordset3);
-
-$ceknomor=mysql_fetch_array(mysql_query("SELECT * FROM d_sop ORDER BY id ASC LIMIT 1"));
-$cekQ=$ceknomor[id];
-#menghilangkan huruf
-$awalQ=substr($cekQ,3-5);
+$ceknomor = mysql_fetch_array(mysql_query("SELECT * FROM d_sop ORDER BY id DESC LIMIT 1"));
+$cekQ = $ceknomor['id'];
+/* #menghilangkan huruf */
+$awalQ = $cekQ;
 
 #ketemu angka awal(angka sebelumnya) + dengan 1
-$next=(int)$awalQ+1;
-$nextpracode=sprintf ($next);
+$next = $awalQ + 1;
+// $nextpracode=sprintf ($next);
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Edit SOP, WI, and Form</title>
+<title>Input SOP, WI, and Form</title>
 
 <link href="/css/induk.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body class="General">
 <?php { include "../date.php"; include "uploadsop.php"; } ?>
-<table width="496" border="0" cellpadding="3" cellspacing="3">
+<table width="800" border="0" cellpadding="3" cellspacing="3">
   <tr>
-    <td colspan="3">&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="130">Attachment File </td>
+    <td width="114">Attachment File </td>
     <td width="3">:</td>
     <td class="contenthdr"><form method="post" enctype="multipart/form-data" name="form" class="General" id="form">
       <input name="fileps" type="file" style="cursor:pointer;" />
@@ -143,6 +99,7 @@ $nextpracode=sprintf ($next);
     </form></td>
   </tr>
 </table>
+<br />
 
 <form action="<?php echo $editFormAction; ?>" method="POST" name="form1" id="form1">
   <table width="800" cellpadding="3" cellspacing="3">
@@ -158,18 +115,18 @@ $nextpracode=sprintf ($next);
     <tr>
       <td>Department</td>
       <td>:</td>
-      <td><select name="id_dept" id="id_dept" title="<?php echo $row_Recordset2['id_dept']; ?>">
+      <td><select name="id_dept" id="id_dept" title="<?php echo $row_Recordset1['id_dept']; ?>">
         <option value="">- Select Department -</option>
         <?php
 	do {  
 	?>
-        <option value="<?php echo $row_Recordset1['id']?>" <?php if ($row_Recordset1['id'] == $row_Recordset2['id_dept']) { ?> selected="selected" <?php } ?>><?php echo $row_Recordset1['department']?></option>
+        <option value="<?php echo $row_rsdept['id']?>" <?php if ($row_rsdept['id'] == $row_Recordset1['id_dept']) { ?> selected="selected" <?php } ?>><?php echo $row_rsdept['department']?></option>
         <?php
-	} while ($row_Recordset1 = mysql_fetch_assoc($Recordset1));
-	  $rows = mysql_num_rows($Recordset1);
+	} while ($row_rsdept = mysql_fetch_assoc($rsdept));
+	  $rows = mysql_num_rows($rsdept);
 	  if($rows > 0) {
-		  mysql_data_seek($Recordset1, 0);
-		  $row_Recordset1 = mysql_fetch_assoc($Recordset1);
+		  mysql_data_seek($rsdept, 0);
+		  $row_rsdept = mysql_fetch_assoc($rsdept);
 	  }
 	?>
       </select></td>
@@ -177,32 +134,32 @@ $nextpracode=sprintf ($next);
     <tr>
       <td>Document No.</td>
       <td>:</td>
-      <td><input type="text" name="doc_no" value="<?php echo $row_Recordset2['doc_no']; ?>" size="20" /></td>
+      <td><input type="text" name="doc_no" value="<?php echo $row_Recordset1['doc_no']; ?>" size="20" /></td>
     </tr>
     <tr>
       <td>Title</td>
       <td>:</td>
-      <td><textarea name="title" id="title" cols="50" rows="2"><?php echo $row_Recordset2['title']; ?></textarea></td>
+      <td><textarea name="title" id="title" cols="50" rows="2"><?php echo $row_Recordset1['title']; ?></textarea></td>
     </tr>
     <tr>
       <td>Revision</td>
       <td>:</td>
-      <td><input type="text" name="rev" value="<?php echo $row_Recordset2['rev']; ?>" size="3" /></td>
+      <td><input type="text" name="rev" value="<?php echo $row_Recordset1['rev']; ?>" size="3" /></td>
     </tr>
     <tr>
       <td>Effective Date</td>
       <td>:</td>
-      <td><input type="text" name="efect_date" id="tanggal8" value="<?php echo $row_Recordset2['efect_date']; ?>" size="20" /></td>
+      <td><input type="text" name="efect_date" id="tanggal8" value="<?php echo $row_Recordset1['efect_date']; ?>" size="20" /></td>
     </tr>
     <tr>
       <td>Interval Review (SOP &amp; WI)</td>
       <td>:</td>
-      <td><input type="text" name="interval_review" value="<?php echo $row_Recordset2['interval_review']; ?>" size="20" /></td>
+      <td><input type="text" name="interval_review" value="<?php echo $row_Recordset1['interval_review']; ?>" size="20" /></td>
     </tr>
     <tr>
       <td>Retention Time (Form)</td>
       <td>:</td>
-      <td><input type="text" name="retention_time" value="<?php echo $row_Recordset2['retention_time']; ?>" size="20" /></td>
+      <td><input type="text" name="retention_time" value="<?php echo $row_Recordset1['retention_time']; ?>" size="20" /></td>
     </tr>
     <tr>
       <td valign="top"><em>Distribution to Dept. <br />
@@ -284,7 +241,8 @@ Finance &amp; Acc.</em></td>
 </body>
 </html>
 <?php
-	mysql_free_result($Recordset1);
-	mysql_free_result($Recordset2);
-	mysql_free_result($Recordset3);
+	mysql_free_result($rsdept);
+
+mysql_free_result($Recordset1);
+	
 ?>
