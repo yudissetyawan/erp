@@ -4,7 +4,15 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72c65ee7-2ccf-428f-a54b-6cfc75018915" name="Default" comment="" />
+    <list default="true" id="72c65ee7-2ccf-428f-a54b-6cfc75018915" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vagrant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="erp.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -31,7 +39,7 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - form_erp@localhost" />
+        <option name="myItemId" value="MySQL - form_erp@erp.btubpn.com" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -41,36 +49,12 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - form_erp@localhost" />
+        <option name="myItemId" value="MySQL - form_erp@erp.btubpn.com" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - form_erp@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="h_absen_core" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
     </PATH>
   </component>
@@ -84,22 +68,8 @@
         <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1224">
-              <caret line="72" column="89" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="89" />
-              <folding>
-                <marker date="1459773763640" expanded="true" signature="1083:1165" placeholder="SELECT id, n... h_employee" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="timecarddetail.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecarddetail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-              <folding>
-                <marker date="1462148333270" expanded="true" signature="1238:1278" placeholder="SELECT * FRO... h_absen_core" />
-              </folding>
+              <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,11 +77,9 @@
       <file leaf-file-name="excel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-763">
+            <state relative-caret-position="828">
               <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-              <folding>
-                <marker date="1460439939235" expanded="true" signature="1438:1478" placeholder="SELECT * FRO... h_absen_core" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,25 +87,18 @@
       <file leaf-file-name="timeattendance.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="522">
               <caret line="29" column="47" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="47" />
-              <folding>
-                <marker date="1460369546792" expanded="true" signature="348:398" placeholder="SELECT * FRO... h_employee" />
-                <marker date="1460369546792" expanded="true" signature="723:793" placeholder="SELECT * FRO... h_absen_core" />
-                <marker date="1460369546792" expanded="true" signature="723:797" placeholder="SELECT * FRO... h_absen_core" />
-                <marker date="1460369546792" expanded="true" signature="723:2622" placeholder="SELECT * FRO... h_absen_core" />
-                <marker date="1460369546792" expanded="true" signature="1166:1232" placeholder="INSERT INTO h_absen_core... " />
-                <marker date="1460369546792" expanded="true" signature="2214:2311" placeholder="UPDATE h_abs... " />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01simple.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="01simple.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
               <folding>
                 <element signature="e#6#1053#0#PHP" expanded="true" />
               </folding>
@@ -148,14 +109,17 @@
       <file leaf-file-name="01simple-download-xls.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple-download-xls.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="108">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -168,10 +132,11 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpServers">
     <servers />
@@ -183,9 +148,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1380" />
+    <option name="x" value="71" />
+    <option name="y" value="24" />
+    <option name="width" value="1295" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -213,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,20 +232,23 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\inetpub\wwwroot\erp\hrd\absnkary" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.01simple.php">
+    <configuration default="false" name="01simple.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/erp/hrd/absnkary/excel/Examples/01simple.php">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -309,6 +279,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.01simple.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.01simple.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -326,31 +304,37 @@
       <workItem from="1459739194822" duration="4361000" />
       <workItem from="1460342039836" duration="31576000" />
       <workItem from="1462145267229" duration="2965000" />
+      <workItem from="1463834097341" duration="2013000" />
+      <workItem from="1463849405144" duration="664000" />
+      <workItem from="1463865010127" duration="94000" />
+      <workItem from="1463865161357" duration="1627000" />
+      <workItem from="1463992002436" duration="120000" />
+      <workItem from="1463996803598" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38902000" />
+    <option name="totallyTimeSpent" value="43457000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1380" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="71" y="24" width="1295" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24780059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27381906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746196" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -370,14 +354,98 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="erp" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="erp" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple-download-xls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
-          <caret line="72" column="89" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="89" />
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1459773763640" expanded="true" signature="1083:1165" placeholder="SELECT id, n... h_employee" />
+            <element signature="e#6#1053#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple-download-xls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="72" column="89" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="89" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -385,9 +453,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
-            <marker date="1462148333270" expanded="true" signature="1238:1278" placeholder="SELECT * FRO... h_absen_core" />
+            <element signature="e#6#1053#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple-download-xls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="72" column="89" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecarddetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#1053#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple-download-xls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="89" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecarddetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -395,9 +558,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding>
-            <marker date="1460439939235" expanded="true" signature="1438:1478" placeholder="SELECT * FRO... h_absen_core" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -405,14 +566,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="47" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="47" />
-          <folding>
-            <marker date="1460369546792" expanded="true" signature="348:398" placeholder="SELECT * FRO... h_employee" />
-            <marker date="1460369546792" expanded="true" signature="723:793" placeholder="SELECT * FRO... h_absen_core" />
-            <marker date="1460369546792" expanded="true" signature="723:797" placeholder="SELECT * FRO... h_absen_core" />
-            <marker date="1460369546792" expanded="true" signature="723:2622" placeholder="SELECT * FRO... h_absen_core" />
-            <marker date="1460369546792" expanded="true" signature="1166:1232" placeholder="INSERT INTO h_absen_core... " />
-            <marker date="1460369546792" expanded="true" signature="2214:2311" placeholder="UPDATE h_abs... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -438,9 +592,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1459773763640" expanded="true" signature="1083:1165" placeholder="SELECT id, n... h_employee" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -448,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <marker date="1462148333270" expanded="true" signature="1238:1278" placeholder="SELECT * FRO... h_absen_core" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -461,13 +610,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ddb98604-f7ba-4d88-a087-9bd65d7346f2/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ddb98604-f7ba-4d88-a087-9bd65d7346f2/console.sql" />
     <entry file="file://$PROJECT_DIR$/note.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -496,13 +639,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/kps/daftarmurid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/kps/daftarmurid.php" />
     <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Documentation/Examples/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -517,13 +654,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/kps/uploadnilai.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/kps/uploadnilai.php" />
     <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/04printing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
@@ -545,56 +676,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple-download-xls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="89" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="89" />
-          <folding>
-            <marker date="1459773763640" expanded="true" signature="1083:1165" placeholder="SELECT id, n... h_employee" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="47" />
-          <folding>
-            <marker date="1460369546792" expanded="true" signature="348:398" placeholder="SELECT * FRO... h_employee" />
-            <marker date="1460369546792" expanded="true" signature="723:793" placeholder="SELECT * FRO... h_absen_core" />
-            <marker date="1460369546792" expanded="true" signature="723:797" placeholder="SELECT * FRO... h_absen_core" />
-            <marker date="1460369546792" expanded="true" signature="723:2622" placeholder="SELECT * FRO... h_absen_core" />
-            <marker date="1460369546792" expanded="true" signature="1166:1232" placeholder="INSERT INTO h_absen_core... " />
-            <marker date="1460369546792" expanded="true" signature="2214:2311" placeholder="UPDATE h_abs... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#1053#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-763">
+        <state relative-caret-position="828">
           <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding>
-            <marker date="1460439939235" expanded="true" signature="1438:1478" placeholder="SELECT * FRO... h_absen_core" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -602,8 +688,294 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple-download-xls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/ddb98604-f7ba-4d88-a087-9bd65d7346f2">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>ddb98604-f7ba-4d88-a087-9bd65d7346f2</OriginalElement>
+          <nodes>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_issue</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_dwnlistofnodwn</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.i_news</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_progress_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_monitoring_activity_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_e_grade</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_suratizin</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_kategori_training</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_welding_map</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_major_activities</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_realtime_absen_masuk</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wbs_cost</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_design_change</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_welding_history</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_vendorcatg</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vwdeptdoc</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_wip_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.system_log</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_cpar</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_absen_status4rekap</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_jenis_training</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_resume</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_mom</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_manpower_loading</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.product</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_crf_design</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_progress</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.contact_us</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_statusengine</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_material_category</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vw_wi</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.j_crf_unused</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_po_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_ctr</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_bahasa</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_milestone</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_wip_invoice</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_monitoring_activity_header_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_core_bom</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_progress</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master_status</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.dms</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_allcumm</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_dwngroupwork</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_site</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_material_traceability</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_material_grade</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_daily_report_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_xdoc</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_incoming_insp_report</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_proj_code</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_category</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_mon_location</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_e_std</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_bpb_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_user</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_clothing_size</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_mr_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_material_pricing</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_production_item</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_pra_code</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_progress_detail</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wbs_cost_new</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_po_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master_prop</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_dinasluar</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_bom_file</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_bbk_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_absen</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_progress_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_sop</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_mr_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_ppereq_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_mtrl_verifi_identification</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_bulan</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.log_pesan</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_monitoring_activity_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_absen_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_header_bom</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.log_pesan_cat</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_ncr</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_mrsr_monitoring_status</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_material_sub_category</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_out_mail</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vw_sop</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_inspectionndtest_plan</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_header_wpr</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_department</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_corecomulative</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.z_mrsr_monitoring_status</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_total_ctr</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_comulative</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_timesheet</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_lampiran</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master_2</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_datapribadi</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.notifikasi</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_production_internal</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_daily_report_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_mcu</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_btb_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_ctrdata</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master_catg</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_do_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_progress_core_scopework</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_design_plan</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_bpb_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_si_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_masterndstatus</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_certificate_product</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.masterkey</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_e_model</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_jenis</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_expnbal</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_dimensional_check</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_penghargaan</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_xdoc_catg</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_category_product</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_manpower_loading_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_summary</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.phone_book</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_job_position</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_ccomplaint</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_typeofwork</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_monoftoolsusage</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_budget_code</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_progress_head</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_pl_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_recruitment</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pc_shipmentloc</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_crf_schedulle</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_bbk_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_expend</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_absen_inisial</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_e_type</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_cuti</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_final_insp_report</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_employee</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pc_shipment_term</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_monitoring_activity_core_log</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_site_platform</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_core_ctrdata</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pc_termsofpay</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_dataortu</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_progress_core_workstatus</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_training_klasifikasi</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_dimensi</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_org_chart</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_material</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_status</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_bantuan</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_tanggal</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_children</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_project_detail</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_status</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_mon_tools</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_jenis_izin</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_perusahaan</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_framemodel</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_selection_test</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_bpjs_idcard</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_orgdoc_catg</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_si_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_ctr_detailklo</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_datakeluarga</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_welding_insp_report</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_crf</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_training</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_do_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_btb_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_hadir</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_outgoing_insp_report</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_wps</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_customer</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_unit</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_wip_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_vendor</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_painting_insp_report</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_selection_skilltest</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_sim</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_prop_complete</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_header_core_bom</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_verification_report</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_experiences</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_production_code</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_jenis</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_frameheader</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_jenis_mom</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_absen_core</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_unit_conv</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_drawing_file</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_selection_interview</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_contactperson</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.s_qsop</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.inisial_pekerjaan</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.i_user_log</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.fn_asset_inv</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_ppereq_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master_subcatg</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_stock_item</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_pl_header</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_activities</node>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_weightfactor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7544119763926874" x="319.0" y="241.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vw_wi">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vw_wi</OriginalElement>
+          <nodes>
+            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vw_wi</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9" x="152.0" y="148.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/8e0cde9d/ddb98604-f7ba-4d88-a087-9bd65d7346f2/form_erp.h_absen_core">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
           <folding>
-            <marker date="1462148333270" expanded="true" signature="1238:1278" placeholder="SELECT * FRO... h_absen_core" />
+            <element signature="e#6#1053#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
