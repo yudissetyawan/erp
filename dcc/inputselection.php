@@ -39,7 +39,7 @@ if (isset($_SERVER['QUERY_STRING'])) {
 if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 	include "../dateformat_funct.php";
 
-  $insertSQL = sprintf("INSERT INTO d_sop (id_dept, doc_no, rev, efect_date, title, catg_doc) VALUES (%s, %s, %s, %s, %s, %s)",
+  $insertSQL = sprintf("INSERT INTO d_sop (id_dept, doc_no, rev, efect_date, retention_time, title, catg_doc) VALUES (%s, %s, %s, %s, %s, %s)",
                        GetSQLValueString($_POST['id_dept'], "int"),
                        GetSQLValueString($_POST['doc_no'], "text"),
                        GetSQLValueString($_POST['rev'], "text"),
@@ -170,11 +170,6 @@ do {
       <td><input type="text" name="efect_date" id="tanggal8" value="" size="20" /></td>
     </tr>
     <tr>
-      <td>Retention Time</td>
-      <td>:</td>
-      <td><input type="text" name="retention_time" id="retention_time" value="" size="20" /></td>
-    </tr>
-    <tr>
       <td>Interval Review (SOP &amp; WI)</td>
       <td>:</td>
       <td><input type="text" name="interval_review" value="" size="20" /></td>
@@ -182,7 +177,7 @@ do {
     <tr>
       <td>Retention Time (Form)</td>
       <td>:</td>
-      <td><input type="text" name="retention_time" value="" size="20" /></td>
+      <td><input type="text" name="retention_time" id="retention_time" value="" size="20" /></td>
     </tr>
     <tr>
       <td valign="top"><em>Distribution to Dept. <br />
