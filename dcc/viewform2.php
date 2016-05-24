@@ -143,7 +143,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 <?php
 if (($_SESSION['userlvl'] == 'administrator') || ($_SESSION['userlvl'] == 'dcc')) { // || ($_SESSION['userlvl'] == 'branchmanager') 
 ?>
-<p><a href="#" onclick="MM_openBrWindow('inputselection.php?data=<?php echo 'WI'; ?>','','width=815,height=500')" id="dialog_link" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Add WI</a></p>
+<p><a href="#" onclick="MM_openBrWindow('inputselection.php?data=<?php echo 'form'; ?>','','width=815,height=500')" id="dialog_link" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-plusthick"></span>Add Form</a></p>
 <?php } ?>
 
 <table width="100%" border="0" class="table" id="celebs" >

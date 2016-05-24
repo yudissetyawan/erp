@@ -44,6 +44,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
                        GetSQLValueString($_POST['doc_no'], "text"),
                        GetSQLValueString($_POST['rev'], "text"),
                        GetSQLValueString(functyyyymmdd($_POST['efect_date']), "date"),
+                       GetSQLValueString($_POST['retention_time'], "retention_time"),
                        GetSQLValueString($_POST['title'], "text"),
 					   GetSQLValueString($_POST['inisial_pekerjaan'], "text"));
 
@@ -167,6 +168,11 @@ do {
       <td>Effective Date</td>
       <td>:</td>
       <td><input type="text" name="efect_date" id="tanggal8" value="" size="20" /></td>
+    </tr>
+    <tr>
+      <td>Retention Time</td>
+      <td>:</td>
+      <td><input type="text" name="retention_time" id="retention_time" value="" size="20" /></td>
     </tr>
     <tr>
       <td>Interval Review (SOP &amp; WI)</td>
