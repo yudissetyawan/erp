@@ -39,7 +39,7 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 $currentPage = $_SERVER["PHP_SELF"];
 
 mysql_select_db($database_core, $core);
-$query_rsdoc = "SELECT d_sop.id, d_sop.id_dept, d_sop.doc_no, d_sop.rev, d_sop.efect_date, d_sop.title, d_sop.dsop_note, d_sop.interval_review, dms.idms, dms.fileupload, h_department.id, h_department.department, h_department.urutan FROM d_sop, dms, h_department WHERE h_department.id=d_sop.id_dept  AND d_sop.id=dms.idms AND dms.id_departemen=d_sop.id_dept AND dms.inisial_pekerjaan='form' ORDER BY h_department.urutan ASC, d_sop.doc_no ASC";
+$query_rsdoc = "SELECT d_sop.id, d_sop.id_dept, d_sop.doc_no, d_sop.rev, d_sop.efect_date, d_sop.title, d_sop.dsop_note, d_sop.interval_review, d_sop.retention_time, dms.idms, dms.fileupload, h_department.id, h_department.department, h_department.urutan FROM d_sop, dms, h_department WHERE h_department.id=d_sop.id_dept  AND d_sop.id=dms.idms AND dms.id_departemen=d_sop.id_dept AND dms.inisial_pekerjaan='form' ORDER BY h_department.urutan ASC, d_sop.doc_no ASC";
 $rsdoc = mysql_query($query_rsdoc, $core) or die(mysql_error());
 $row_rsdoc = mysql_fetch_assoc($rsdoc);
 $totalRows_rsdoc = mysql_num_rows($rsdoc);
@@ -155,6 +155,7 @@ if (($_SESSION['userlvl'] == 'administrator') || ($_SESSION['userlvl'] == 'dcc')
       <td width="40">Rev.</td>
       <td width="300">Title</td>
       <td width="80">Effective<br />Date</td>
+      <td width="80">Retention<br />Time</td>
       <td>Remark</td>
       <td width="80">Interval<br />Review</td>
       <?php
@@ -181,6 +182,7 @@ if (($_SESSION['userlvl'] == 'administrator') || ($_SESSION['userlvl'] == 'dcc')
 ?></td>
       <td align="center"><?php echo functddmmmyyyy($row_rsdoc['efect_date']); ?></td>
       <td><?php echo $row_rsdoc['dsop_note']; ?></td>
+      <td><?php echo $row_rsdoc['retention_time']; ?></td>
       <td align="center"><?php echo $row_rsdoc['interval_review']; ?></td>
       <?php
 if (($_SESSION['userlvl'] == 'administrator') || ($_SESSION['userlvl'] == 'dcc')) { // || ($_SESSION['userlvl'] == 'branchmanager') 
