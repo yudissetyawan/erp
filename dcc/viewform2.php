@@ -155,7 +155,7 @@ if (($_SESSION['userlvl'] == 'administrator') || ($_SESSION['userlvl'] == 'dcc')
       <td width="40">Rev.</td>
       <td width="300">Title</td>
       <td width="80">Effective<br />Date</td>
-      <td width="80">Retention<br />Time</td>
+      <td width="60">Retention<br />Time</td>
       <td>Remark</td>
       <td width="80">Interval<br />Review</td>
       <?php

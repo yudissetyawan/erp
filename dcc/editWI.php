@@ -42,6 +42,7 @@ if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
                        GetSQLValueString($_POST['doc_no'], "text"),
                        GetSQLValueString($_POST['rev'], "text"),
                        GetSQLValueString($_POST['efect_date'], "date"),
+                       GetSQLValueString($_POST['retention_time'], "retention_time"),
                        GetSQLValueString($_POST['title'], "text"),
                        GetSQLValueString($_POST['id'], "int"));
 
@@ -174,6 +175,11 @@ $nextpracode=sprintf ($next);
       <td>Effective Date</td>
       <td>:</td>
       <td><input type="text" name="efect_date" value="<?php echo $row_Recordset2['efect_date']; ?>" size="32" /></td>
+    </tr>
+    <tr>
+      <td>Retention Time</td>
+      <td>:</td>
+      <td><input type="text" name="retention_time" value="<?php echo $row_Recordset2['retention_time']; ?>" size="32" /></td>
     </tr>
     <tr>
       <td>Title</td>
