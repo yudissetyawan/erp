@@ -37,15 +37,16 @@ if (isset($_SERVER['QUERY_STRING'])) {
 }
 
 if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
-  $updateSQL = sprintf("UPDATE d_sop SET id_dept=%s, title=%s, rev=%s, efect_date=%s, catg_doc=%s, interval_review=%s, retention_time=%s WHERE doc_no=%s",
+  $updateSQL = sprintf("UPDATE d_sop SET id_dept=%s, doc_no=%s, title=%s, rev=%s, efect_date=%s, catg_doc=%s, interval_review=%s, retention_time=%s WHERE id=%s",
                        GetSQLValueString($_POST['id_dept'], "int"),
+                       GetSQLValueString($_POST['doc_no'], "text"),
                        GetSQLValueString($_POST['title'], "text"),
                        GetSQLValueString($_POST['rev'], "text"),
                        GetSQLValueString($_POST['efect_date'], "text"),
                        GetSQLValueString($_POST['doc_no'], "text"),
                        GetSQLValueString($_POST['interval_review'], "text"),
                        GetSQLValueString($_POST['retention_time'], "text"),
-                       GetSQLValueString($_POST['doc_no'], "text"));
+                       GetSQLValueString($_POST['id'], "int"));
 
   mysql_select_db($database_core, $core);
   $Result1 = mysql_query($updateSQL, $core) or die(mysql_error());
@@ -63,7 +64,7 @@ if (isset($_GET['data'])) {
   $colname_Recordset1 = $_GET['data'];
 }
 mysql_select_db($database_core, $core);
-$query_Recordset1 = sprintf("SELECT * FROM d_sop WHERE doc_no = %s", GetSQLValueString($colname_Recordset1, "text"));
+$query_Recordset1 = sprintf("SELECT * FROM d_sop WHERE id = %s", GetSQLValueString($colname_Recordset1, "text"));
 $Recordset1 = mysql_query($query_Recordset1, $core) or die(mysql_error());
 $row_Recordset1 = mysql_fetch_assoc($Recordset1);
 $totalRows_Recordset1 = mysql_num_rows($Recordset1);
@@ -234,6 +235,7 @@ Finance &amp; Acc.</em></td>
     </tr>
   </table>
   <input name="nama_fileps" type="hidden" id="nama_fileps" value="<?php echo $row_Recordset1['nama_file'];?>"/>
+  <input name="id" type="hidden" id="id" value="<?php echo $row_Recordset1['id'];?>"/>
   <input type="hidden" name="idms" id="idms" value="<?php echo $next;?>" />
   <input type="hidden" name="MM_update" value="form1" />
 </form>

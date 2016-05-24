@@ -7,10 +7,20 @@
     <orderEntry type="module-library">
       <library name="PHP">
         <CLASSES>
-          <root url="file:///usr/local/php" />
+          <root url="file://C:/Program Files (x86)/PHP/v5.5" />
         </CLASSES>
         <SOURCES>
-          <root url="file:///usr/local/php" />
+          <root url="file://C:/Program Files (x86)/PHP/v5.5" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://C:/Program Files (x86)/PHP/v5.5/pharcommand.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://C:/Program Files (x86)/PHP/v5.5/pharcommand.phar/" />
         </SOURCES>
       </library>
     </orderEntry>

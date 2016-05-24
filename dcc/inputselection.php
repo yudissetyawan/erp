@@ -39,12 +39,13 @@ if (isset($_SERVER['QUERY_STRING'])) {
 if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 	include "../dateformat_funct.php";
 
-  $insertSQL = sprintf("INSERT INTO d_sop (id_dept, doc_no, rev, efect_date, retention_time, title, catg_doc) VALUES (%s, %s, %s, %s, %s, %s)",
+  $insertSQL = sprintf("INSERT INTO d_sop (id_dept, doc_no, rev, efect_date, interval_review, retention_time, title, catg_doc) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)",
                        GetSQLValueString($_POST['id_dept'], "int"),
                        GetSQLValueString($_POST['doc_no'], "text"),
                        GetSQLValueString($_POST['rev'], "text"),
                        GetSQLValueString(functyyyymmdd($_POST['efect_date']), "date"),
                        GetSQLValueString($_POST['retention_time'], "retention_time"),
+                       GetSQLValueString($_POST['interval_review'], "interval_review"),
                        GetSQLValueString($_POST['title'], "text"),
 					   GetSQLValueString($_POST['inisial_pekerjaan'], "text"));
 
@@ -53,7 +54,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 }
 
 if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
-  $insertSQL = sprintf("INSERT INTO dms (idms, id_departemen, inisial_pekerjaan, `date`, fileupload, keterangan) VALUES (%s, %s, %s, %s, %s, %s)",
+  $insertSQL2 = sprintf("INSERT INTO dms (idms, id_departemen, inisial_pekerjaan, `date`, fileupload, keterangan) VALUES (%s, %s, %s, %s, %s, %s)",
                        GetSQLValueString($_POST['idms'], "text"),
                        GetSQLValueString($_POST['id_dept'], "text"),
                        GetSQLValueString($_POST['inisial_pekerjaan'], "text"),
@@ -62,7 +63,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
                        GetSQLValueString($_POST['title'], "text"));
 
   mysql_select_db($database_core, $core);
-  $Result1 = mysql_query($insertSQL, $core) or die(mysql_error());
+  $Result2 = mysql_query($insertSQL2, $core) or die(mysql_error());
 
   echo "<script>
   	alert(\"Data has been saved\");
@@ -172,7 +173,7 @@ do {
     <tr>
       <td>Interval Review (SOP &amp; WI)</td>
       <td>:</td>
-      <td><input type="text" name="interval_review" value="" size="20" /></td>
+      <td><input type="text" name="interval_review" id="interval_review" value="" size="20" /></td>
     </tr>
     <tr>
       <td>Retention Time (Form)</td>
