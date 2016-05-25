@@ -74,13 +74,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home_dcc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dcc/home_dcc.php">
+      <file leaf-file-name="viewform2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dcc/viewform2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6834">
-              <caret line="402" column="25" selection-start-line="402" selection-start-column="25" selection-end-line="402" selection-end-column="25" />
+            <state relative-caret-position="305">
+              <caret line="195" column="0" selection-start-line="192" selection-start-column="10" selection-end-line="195" selection-end-column="0" />
               <folding>
-                <marker date="1463620362168" expanded="true" signature="3731:3775" placeholder="SELECT * FRO... h_employee" />
+                <marker date="1464160517863" expanded="true" signature="1185:1631" placeholder="SELECT d_sop... d_sop" />
               </folding>
             </state>
           </provider>
@@ -89,10 +89,10 @@
       <file leaf-file-name="viewWI.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dcc/viewWI.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="438" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="438" />
+            <state relative-caret-position="-205">
+              <caret line="162" column="19" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="32" />
               <folding>
-                <marker date="1464077146099" expanded="true" signature="1185:1607" placeholder="SELECT d_sop... d_sop" />
+                <marker date="1464155677068" expanded="true" signature="1185:1607" placeholder="SELECT d_sop... d_sop" />
               </folding>
             </state>
           </provider>
@@ -101,65 +101,67 @@
       <file leaf-file-name="viewSOP.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dcc/viewSOP.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="89" column="30" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="30" />
+            <state relative-caret-position="2516">
+              <caret line="148" column="40" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
               <folding>
-                <marker date="1455241168426" expanded="true" signature="1147:1592" placeholder="SELECT d_sop... d_sop" />
-                <marker date="1455241168426" expanded="true" signature="1798:2243" placeholder="SELECT d_sop... d_sop" />
+                <marker date="1464160534584" expanded="true" signature="1348:1793" placeholder="SELECT d_sop... d_sop" />
+                <marker date="1464160534584" expanded="true" signature="2000:2445" placeholder="SELECT d_sop... d_sop" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewform2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dcc/viewform2.php">
+      <file leaf-file-name="editSOP.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dcc/editSOP.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="462" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="462" />
+            <state relative-caret-position="-409">
+              <caret line="125" column="23" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
               <folding>
-                <marker date="1464070994028" expanded="true" signature="1185:1631" placeholder="SELECT d_sop... d_sop" />
+                <marker date="1464160559805" expanded="true" signature="1467:1550" placeholder="UPDATE d_sop... " />
+                <marker date="1464160559805" expanded="true" signature="2277:2392" placeholder="UPDATE dms S... " />
+                <marker date="1464160559805" expanded="true" signature="2954:3134" placeholder="..." />
+                <marker date="1464160559805" expanded="true" signature="3075:3123" placeholder="{...}" />
+                <marker date="1464160559805" expanded="true" signature="3202:3252" placeholder="SELECT * FRO... h_department" />
+                <marker date="1464160559805" expanded="true" signature="3602:3635" placeholder="SELECT * FRO... d_sop" />
+                <marker date="1464160559805" expanded="true" signature="4033:4066" placeholder="SELECT * FRO... dms" />
+                <marker date="1464160559805" expanded="true" signature="4340:4383" placeholder="SELECT * FRO... d_sop" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editForm1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dcc/editForm1.php">
+      <file leaf-file-name="inputselection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dcc/inputselection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+            <state relative-caret-position="391">
+              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
               <folding>
-                <marker date="1464062877055" expanded="true" signature="1264:1392" placeholder="UPDATE d_sop... " />
-                <marker date="1464062877055" expanded="true" signature="2128:2174" placeholder="SELECT * FRO... h_department" />
-                <marker date="1464062877055" expanded="true" signature="2498:2535" placeholder="SELECT * FRO... d_sop" />
-                <marker date="1464062877055" expanded="true" signature="2809:2853" placeholder="SELECT * FRO... d_sop" />
+                <marker date="1464160571877" expanded="true" signature="1507:1649" placeholder="INSERT INTO d_sop... " />
+                <marker date="1464160571877" expanded="true" signature="2357:2477" placeholder="INSERT INTO dms... " />
+                <marker date="1464160571877" expanded="true" signature="3019:3199" placeholder="..." />
+                <marker date="1464160571877" expanded="true" signature="3040:3199" placeholder="..." />
+                <marker date="1464160571877" expanded="true" signature="3140:3188" placeholder="{...}" />
+                <marker date="1464160571877" expanded="true" signature="3263:3309" placeholder="SELECT * FRO... h_department" />
+                <marker date="1464160571877" expanded="true" signature="3510:3554" placeholder="SELECT * FRO... d_sop" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editForm.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="editForm.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dcc/editForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="104" column="68" selection-start-line="104" selection-start-column="68" selection-end-line="104" selection-end-column="68" />
+            <state relative-caret-position="-987">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
-                <marker date="1464072601000" expanded="true" signature="1264:1293" placeholder="UPDATE d_sop... " />
-                <marker date="1464072601000" expanded="true" signature="1264:1399" placeholder="UPDATE d_sop... " />
-                <marker date="1464072601000" expanded="true" signature="2198:2244" placeholder="SELECT * FRO... h_department" />
-                <marker date="1464072601000" expanded="true" signature="2568:2601" placeholder="SELECT * FRO... d_sop" />
-                <marker date="1464072601000" expanded="true" signature="2875:2919" placeholder="SELECT * FRO... d_sop" />
+                <marker date="1464160312538" expanded="true" signature="1264:1293" placeholder="UPDATE d_sop... " />
+                <marker date="1464160312538" expanded="true" signature="1264:1399" placeholder="UPDATE d_sop... " />
+                <marker date="1464160312538" expanded="true" signature="2207:2387" placeholder="..." />
+                <marker date="1464160312538" expanded="true" signature="2328:2376" placeholder="{...}" />
+                <marker date="1464160312538" expanded="true" signature="2452:2498" placeholder="SELECT * FRO... h_department" />
+                <marker date="1464160312538" expanded="true" signature="2822:2855" placeholder="SELECT * FRO... d_sop" />
+                <marker date="1464160312538" expanded="true" signature="3129:3173" placeholder="SELECT * FRO... d_sop" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ddb98604-f7ba-4d88-a087-9bd65d7346f2/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="311" selection-start-line="0" selection-start-column="311" selection-end-line="0" selection-end-column="311" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -178,12 +180,19 @@
         <option value="$PROJECT_DIR$/hrd/absnkary/excel.php" />
         <option value="$PROJECT_DIR$/hrd/absnkary/timecarddetail.php" />
         <option value="$PROJECT_DIR$/Connections/core.php" />
-        <option value="$PROJECT_DIR$/dcc/editWI.php" />
-        <option value="$PROJECT_DIR$/dcc/inputselection.php" />
-        <option value="$PROJECT_DIR$/dcc/viewform2.php" />
-        <option value="$PROJECT_DIR$/dcc/editForm.php" />
-        <option value="$PROJECT_DIR$/dcc/viewWI.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ddb98604-f7ba-4d88-a087-9bd65d7346f2/console.sql" />
+        <option value="$PROJECT_DIR$/js/jquery.jeditable.js" />
+        <option value="$PROJECT_DIR$/js/jquery.blockui.js" />
+        <option value="$PROJECT_DIR$/js/jquery.datatables.js" />
+        <option value="$PROJECT_DIR$/dcc/delwi.php" />
+        <option value="$PROJECT_DIR$/dcc/viewWI.php" />
+        <option value="$PROJECT_DIR$/dcc/delsop.php" />
+        <option value="$PROJECT_DIR$/dcc/editWI.php" />
+        <option value="$PROJECT_DIR$/dcc/editForm.php" />
+        <option value="$PROJECT_DIR$/dcc/viewform2.php" />
+        <option value="$PROJECT_DIR$/dcc/viewSOP.php" />
+        <option value="$PROJECT_DIR$/dcc/editSOP.php" />
+        <option value="$PROJECT_DIR$/dcc/inputselection.php" />
       </list>
     </option>
   </component>
@@ -234,6 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -267,23 +277,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Connections" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,7 +368,8 @@
       <workItem from="1464054263522" duration="339000" />
       <workItem from="1464054765121" duration="4340000" />
       <workItem from="1464064399824" duration="10782000" />
-      <workItem from="1464095998905" duration="959000" />
+      <workItem from="1464095998905" duration="1948000" />
+      <workItem from="1464151967301" duration="6082000" />
     </task>
     <task id="LOCAL-00001" summary="phpstorm">
       <created>1463996876913</created>
@@ -400,7 +396,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63722000" />
+    <option name="totallyTimeSpent" value="70793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,10 +408,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30181542" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30635402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21406959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -478,76 +474,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1458">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple-download-xls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="89" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecarddetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple-download-xls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -935,13 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dcc/inputselection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dcc/viewForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -956,13 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dcc/editWI.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1975">
-          <caret line="146" column="26" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dcc/editForm1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -972,20 +884,6 @@
             <marker date="1464062877055" expanded="true" signature="2128:2174" placeholder="SELECT * FRO... h_department" />
             <marker date="1464062877055" expanded="true" signature="2498:2535" placeholder="SELECT * FRO... d_sop" />
             <marker date="1464062877055" expanded="true" signature="2809:2853" placeholder="SELECT * FRO... d_sop" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dcc/editForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="68" selection-start-line="104" selection-start-column="68" selection-end-line="104" selection-end-column="68" />
-          <folding>
-            <marker date="1464072601000" expanded="true" signature="1264:1293" placeholder="UPDATE d_sop... " />
-            <marker date="1464072601000" expanded="true" signature="1264:1399" placeholder="UPDATE d_sop... " />
-            <marker date="1464072601000" expanded="true" signature="2198:2244" placeholder="SELECT * FRO... h_department" />
-            <marker date="1464072601000" expanded="true" signature="2568:2601" placeholder="SELECT * FRO... d_sop" />
-            <marker date="1464072601000" expanded="true" signature="2875:2919" placeholder="SELECT * FRO... d_sop" />
           </folding>
         </state>
       </provider>
@@ -1004,20 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dcc/xdoc_del.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dcc/delwi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dcc/home_dcc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6834">
@@ -1028,42 +912,241 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ddb98604-f7ba-4d88-a087-9bd65d7346f2/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="298" selection-start-line="0" selection-start-column="298" selection-end-line="0" selection-end-column="298" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.jeditable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6205">
+          <caret line="365" column="19" selection-start-line="365" selection-start-column="18" selection-end-line="365" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.blockui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1464152857757" expanded="true" signature="10585:10704" placeholder="..." />
+            <marker date="1464152857757" expanded="true" signature="10819:10831" placeholder="..." />
+            <marker date="1464152857757" expanded="true" signature="10957:10991" placeholder="..." />
+            <marker date="1464152857757" expanded="true" signature="11087:11188" placeholder="..." />
+            <marker date="1464152857757" expanded="true" signature="11359:11411" placeholder="..." />
+            <marker date="1464152857757" expanded="true" signature="11892:11947" placeholder="..." />
+            <marker date="1464152857757" expanded="true" signature="12385:12437" placeholder="..." />
+            <marker date="1464152857757" expanded="true" signature="12570:12625" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.datatables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1464152857928" expanded="true" signature="69567:69639" placeholder="..." />
+            <marker date="1464152857928" expanded="true" signature="69653:69720" placeholder="..." />
+            <marker date="1464152857928" expanded="true" signature="69754:69778" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdoc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1412927303086" expanded="true" signature="1161:1630" placeholder="SELECT d_out... d_out_mail" />
+            <marker date="1412927303086" expanded="true" signature="1874:1947" placeholder="SELECT a_con... a_contactperson" />
+            <marker date="1412927303086" expanded="true" signature="2190:2214" placeholder="SELECT * FRO... a_customer" />
+            <marker date="1412927303086" expanded="true" signature="2457:2512" placeholder="SELECT `init... h_employee" />
+            <marker date="1412927303086" expanded="true" signature="2755:2810" placeholder="SELECT * FRO... d_out_mail" />
+            <marker date="1412927303086" expanded="true" signature="3053:3079" placeholder="SELECT * FRO... d_perusahaan" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/xdoc_del.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <marker date="1409708809707" expanded="true" signature="1099:1143" placeholder="UPDATE d_xdo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/xdoc_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="73" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="78" selection-end-column="13" />
+          <folding>
+            <marker date="1454377131732" expanded="true" signature="1307:1407" placeholder="UPDATE d_xdo... " />
+            <marker date="1454377131732" expanded="true" signature="2176:2252" placeholder="UPDATE dms S... " />
+            <marker date="1454377131732" expanded="true" signature="2722:2902" placeholder="..." />
+            <marker date="1454377131732" expanded="true" signature="2843:2891" placeholder="{...}" />
+            <marker date="1454377131732" expanded="true" signature="2970:2995" placeholder="SELECT * FRO... d_xdoc_catg" />
+            <marker date="1454377131732" expanded="true" signature="3331:3567" placeholder="SELECT d_xdo... d_xdoc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/xdoc_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="226" column="236" selection-start-line="226" selection-start-column="12" selection-end-line="226" selection-end-column="236" />
+          <folding>
+            <marker date="1452138827198" expanded="true" signature="1223:1547" placeholder="SELECT d_xdo... d_xdoc" />
+            <marker date="1452138827198" expanded="true" signature="1577:1869" placeholder="SELECT d_xdo... d_xdoc" />
+            <marker date="1452138827198" expanded="true" signature="2159:2203" placeholder="SELECT * FRO... d_xdoc_catg" />
+            <marker date="1452138827198" expanded="true" signature="2558:2583" placeholder="SELECT * FRO... d_xdoc_catg" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/delform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1464154567782" expanded="true" signature="1098:1127" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/delwi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <marker date="1464155622088" expanded="true" signature="1098:1127" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/delsop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <marker date="1464155847638" expanded="true" signature="1098:1127" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/editWI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="178" column="60" selection-start-line="178" selection-start-column="60" selection-end-line="178" selection-end-column="60" />
+          <folding>
+            <marker date="1464160214056" expanded="true" signature="1264:1347" placeholder="UPDATE d_sop... " />
+            <marker date="1464160214056" expanded="true" signature="2220:2335" placeholder="UPDATE dms S... " />
+            <marker date="1464160214056" expanded="true" signature="2995:3175" placeholder="..." />
+            <marker date="1464160214056" expanded="true" signature="3016:3175" placeholder="..." />
+            <marker date="1464160214056" expanded="true" signature="3116:3164" placeholder="{...}" />
+            <marker date="1464160214056" expanded="true" signature="3243:3293" placeholder="SELECT * FRO... h_department" />
+            <marker date="1464160214056" expanded="true" signature="3641:3674" placeholder="SELECT * FRO... d_sop" />
+            <marker date="1464160214056" expanded="true" signature="4070:4132" placeholder="SELECT * FRO... dms" />
+            <marker date="1464160214056" expanded="true" signature="4404:4447" placeholder="SELECT * FRO... d_sop" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/editSOP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <caret line="125" column="23" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
+          <folding>
+            <marker date="1464160559805" expanded="true" signature="1467:1550" placeholder="UPDATE d_sop... " />
+            <marker date="1464160559805" expanded="true" signature="2277:2392" placeholder="UPDATE dms S... " />
+            <marker date="1464160559805" expanded="true" signature="2954:3134" placeholder="..." />
+            <marker date="1464160559805" expanded="true" signature="3075:3123" placeholder="{...}" />
+            <marker date="1464160559805" expanded="true" signature="3202:3252" placeholder="SELECT * FRO... h_department" />
+            <marker date="1464160559805" expanded="true" signature="3602:3635" placeholder="SELECT * FRO... d_sop" />
+            <marker date="1464160559805" expanded="true" signature="4033:4066" placeholder="SELECT * FRO... dms" />
+            <marker date="1464160559805" expanded="true" signature="4340:4383" placeholder="SELECT * FRO... d_sop" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dcc/viewSOP.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="89" column="30" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="30" />
+        <state relative-caret-position="2516">
+          <caret line="148" column="40" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
           <folding>
-            <marker date="1455241168426" expanded="true" signature="1147:1592" placeholder="SELECT d_sop... d_sop" />
-            <marker date="1455241168426" expanded="true" signature="1798:2243" placeholder="SELECT d_sop... d_sop" />
+            <marker date="1464160534584" expanded="true" signature="1348:1793" placeholder="SELECT d_sop... d_sop" />
+            <marker date="1464160534584" expanded="true" signature="2000:2445" placeholder="SELECT d_sop... d_sop" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dcc/viewWI.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="438" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="438" />
+        <state relative-caret-position="-205">
+          <caret line="162" column="19" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="32" />
           <folding>
-            <marker date="1464077146099" expanded="true" signature="1185:1607" placeholder="SELECT d_sop... d_sop" />
+            <marker date="1464155677068" expanded="true" signature="1185:1607" placeholder="SELECT d_sop... d_sop" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dcc/viewform2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="462" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="462" />
+        <state relative-caret-position="305">
+          <caret line="195" column="0" selection-start-line="192" selection-start-column="10" selection-end-line="195" selection-end-column="0" />
           <folding>
-            <marker date="1464070994028" expanded="true" signature="1185:1631" placeholder="SELECT d_sop... d_sop" />
+            <marker date="1464160517863" expanded="true" signature="1185:1631" placeholder="SELECT d_sop... d_sop" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ddb98604-f7ba-4d88-a087-9bd65d7346f2/console.sql">
+    <entry file="file://$PROJECT_DIR$/dcc/inputselection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="311" selection-start-line="0" selection-start-column="311" selection-end-line="0" selection-end-column="311" />
-          <folding />
+        <state relative-caret-position="391">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+          <folding>
+            <marker date="1464160571877" expanded="true" signature="1507:1649" placeholder="INSERT INTO d_sop... " />
+            <marker date="1464160571877" expanded="true" signature="2357:2477" placeholder="INSERT INTO dms... " />
+            <marker date="1464160571877" expanded="true" signature="3019:3199" placeholder="..." />
+            <marker date="1464160571877" expanded="true" signature="3040:3199" placeholder="..." />
+            <marker date="1464160571877" expanded="true" signature="3140:3188" placeholder="{...}" />
+            <marker date="1464160571877" expanded="true" signature="3263:3309" placeholder="SELECT * FRO... h_department" />
+            <marker date="1464160571877" expanded="true" signature="3510:3554" placeholder="SELECT * FRO... d_sop" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/editForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-987">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <marker date="1464160312538" expanded="true" signature="1264:1293" placeholder="UPDATE d_sop... " />
+            <marker date="1464160312538" expanded="true" signature="1264:1399" placeholder="UPDATE d_sop... " />
+            <marker date="1464160312538" expanded="true" signature="2207:2387" placeholder="..." />
+            <marker date="1464160312538" expanded="true" signature="2328:2376" placeholder="{...}" />
+            <marker date="1464160312538" expanded="true" signature="2452:2498" placeholder="SELECT * FRO... h_department" />
+            <marker date="1464160312538" expanded="true" signature="2822:2855" placeholder="SELECT * FRO... d_sop" />
+            <marker date="1464160312538" expanded="true" signature="3129:3173" placeholder="SELECT * FRO... d_sop" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -50,6 +50,18 @@ if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
 
   mysql_select_db($database_core, $core);
   $Result1 = mysql_query($updateSQL, $core) or die(mysql_error());
+
+  // on update close window handler
+  // --> by yudis
+  echo "<script>
+  	alert(\"Document has been saved\");
+	self.close();
+	
+	window.onunload = refreshParent;
+    function refreshParent() {
+        window.opener.location.reload();
+    }
+  </script>";
 }
 
 
@@ -83,7 +95,7 @@ $next = $awalQ + 1;
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Input SOP, WI, and Form</title>
+<title>Input Form</title>
 
 <link href="/css/induk.css" rel="stylesheet" type="text/css" />
 </head>
@@ -234,8 +246,8 @@ Finance &amp; Acc.</em></td>
       <td><input type="submit" value="Submit" /></td>
     </tr>
   </table>
-  <input name="nama_fileps" type="hidden" id="nama_fileps" value="<?php echo $row_Recordset1['nama_file'];?>"/>
-  <input name="id" type="hidden" id="id" value="<?php echo $row_Recordset1['id'];?>"/>
+  <input type="hidden" name="nama_fileps" id="nama_fileps" value="<?php echo $row_Recordset1['nama_file'];?>"/>
+  <input type="hidden" name="id" id="id" value="<?php echo $row_Recordset1['id'];?>"/>
   <input type="hidden" name="idms" id="idms" value="<?php echo $next;?>" />
   <input type="hidden" name="MM_update" value="form1" />
 </form>

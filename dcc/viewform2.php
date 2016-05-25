@@ -190,7 +190,10 @@ if (($_SESSION['userlvl'] == 'administrator') || ($_SESSION['userlvl'] == 'dcc')
       <td align="center">
           <a href="#" onclick="MM_openBrWindow('editForm.php?data=<?php echo $row_rsdoc['idms']; ?>','','scrollbars=yes,resizable=yes,width=520,height=480')" title="Edit Data"><img src="images/icedit.png" width="15" height="15"></a>
           &nbsp;&nbsp;
-          <a href="#" title="Delete Data"><img src="images/icdel.png" width="15" height="15"></a>
+          <a href="delform.php?data=<?php echo $row_rsdoc['idms']; ?>"
+             onclick="return confirm('Delete Document No. <?php echo $row_rsdoc['doc_no']; ?> ?')"
+             title="Delete Data"><img src="images/icdel.png" width="15" height="15"></a>
+
       </td>
       <?php } ?>
       

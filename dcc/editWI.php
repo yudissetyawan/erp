@@ -58,7 +58,7 @@ if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
 	}
 	/* echo "<script>alert(\"$nfile\");</script>"; */
 
-  $updateSQL = sprintf("UPDATE dms SET idms=%s, id_departemen=%s, inisial_pekerjaan=%s, `date`=%s, fileupload=%s, keterangan=%s WHERE id=%s",
+  $updateSQL2 = sprintf("UPDATE dms SET idms=%s, id_departemen=%s, inisial_pekerjaan=%s, `date`=%s, fileupload=%s, keterangan=%s WHERE id=%s",
                        GetSQLValueString($_POST['id'], "text"),
                        GetSQLValueString($_POST['id_dept'], "text"),
                        GetSQLValueString($_POST['inisial_pekerjaan'], "text"),
@@ -68,10 +68,12 @@ if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
                        GetSQLValueString($_POST['vidms'], "int"));
 
   mysql_select_db($database_core, $core);
-  $Result1 = mysql_query($updateSQL, $core) or die(mysql_error());
-  
-    echo "<script>
-  	alert(\"Data has been saved\");
+  $Result1 = mysql_query($updateSQL2, $core) or die(mysql_error());
+
+  // on update close window handler
+  // --> by yudis
+  echo "<script>
+  	alert(\"Document has been saved\");
 	self.close();
 	
 	window.onunload = refreshParent;
@@ -121,11 +123,11 @@ $nextpracode=sprintf ($next);
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Edit SOP and WI</title>
+<title>Edit WI</title>
 </head>
 
 <body>
-<?php { include "uploadsop.php"; } ?>
+<?php { include "../date.php"; include "uploadsop.php"; } ?>
 <table width="496" border="0" cellpadding="3" cellspacing="3" align="center">
   <tr>
     <td colspan="3">&nbsp;</td>
@@ -174,7 +176,7 @@ $nextpracode=sprintf ($next);
     <tr>
       <td>Effective Date</td>
       <td>:</td>
-      <td><input type="text" name="efect_date" value="<?php echo $row_Recordset2['efect_date']; ?>" size="32" /></td>
+      <td><input type="text" name="efect_date" id="tanggal18" value="<?php echo $row_Recordset2['efect_date']; ?>" size="32" /></td>
     </tr>
     <tr>
       <td>Retention Time</td>
@@ -192,12 +194,12 @@ $nextpracode=sprintf ($next);
       </td>
     </tr>
   </table>
-  <input name="nama_fileps" type="hidden" id="nama_fileps" value="<?php echo $nama_file;?>"/>
-  <input name="nama_fileps2" type="hidden" id="nama_fileps2" value="<?php echo $row_Recordset3['fileupload']; ?>"/>
-  <input name="inisial_pekerjaan" type="hidden" id="inisial_pekerjaan" value="WI"/>
+  <input type="hidden" name="nama_fileps" id="nama_fileps" value="<?php echo $nama_file;?>"/>
+  <input type="hidden" name="nama_fileps2" id="nama_fileps2" value="<?php echo $row_Recordset3['fileupload']; ?>"/>
+  <input type="hidden" name="inisial_pekerjaan" id="inisial_pekerjaan" value="WI"/>
   
-  <input type="text" name="id" id="id" value="<?php echo $row_Recordset2['id']; ?>" />
-    <input type="text" name="vidms" id="vidms" value="<?php echo $row_Recordset3['id']; ?>" />
+  <input type="hidden" name="id" id="id" value="<?php echo $row_Recordset2['id']; ?>" />
+  <input type="hidden" name="vidms" id="vidms" value="<?php echo $row_Recordset3['id']; ?>" />
   <input type="hidden" name="MM_update" value="form1" />
 </form>
 

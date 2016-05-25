@@ -38,7 +38,7 @@ if ((isset($_GET['data'])) && ($_GET['data'] != "")) {
   mysql_select_db($database_core, $core);
   $Result1 = mysql_query($deleteSQL, $core) or die(mysql_error());
 
-  $deleteGoTo = "viewWI.php";
+  $deleteGoTo = "viewSOP.php";
   if (isset($_SERVER['QUERY_STRING'])) {
     $deleteGoTo .= (strpos($deleteGoTo, '?')) ? "&" : "?";
     $deleteGoTo .= $_SERVER['QUERY_STRING'];
