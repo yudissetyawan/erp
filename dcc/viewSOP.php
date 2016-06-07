@@ -41,11 +41,7 @@ $query_rsdoc = "SELECT d_sop.id, d_sop.id_dept, d_sop.doc_no, d_sop.rev, d_sop.e
 $rsdoc = mysql_query($query_rsdoc, $core) or die(mysql_error());
 $row_rsdoc = mysql_fetch_assoc($rsdoc);
 $totalRows_rsdoc = mysql_num_rows($rsdoc);
-mysql_select_db($database_core, $core);
-$query_rsdoc = "SELECT d_sop.id, d_sop.id_dept, d_sop.doc_no, d_sop.rev, d_sop.efect_date, d_sop.title, d_sop.dsop_note, d_sop.interval_review, dms.idms, dms.fileupload, dms.inisial_pekerjaan, h_department.id AS dept_id, h_department.department, h_department.urutan FROM d_sop, dms, h_department WHERE d_sop.id=dms.idms AND dms.inisial_pekerjaan='SOP' AND d_sop.id_dept = h_department.id AND d_sop.id_dept <> 6 ORDER BY h_department.urutan ASC, d_sop.doc_no ASC";
-$rsdoc = mysql_query($query_rsdoc, $core) or die(mysql_error());
-$row_rsdoc = mysql_fetch_assoc($rsdoc);
-$totalRows_rsdoc = mysql_num_rows($rsdoc);
+
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
@@ -180,10 +176,14 @@ if (($_SESSION['userlvl'] == 'administrator') || ($_SESSION['userlvl'] == 'dcc')
                 <td align="center">
                     <a href="#"
                        onclick="MM_openBrWindow('editSOP.php?data=<?php echo $row_rsdoc['idms']; ?>','','scrollbars=yes,resizable=yes,width=520,height=480')"><img
-                            src="images/icedit.png" width="15" height="15"></a> |
+                            src="images/icedit.png" width="15" height="15">
+                    </a>
+                    |
                     <a href="delsop.php?data=<?php echo $row_rsdoc['idms']; ?>"
                        onclick="return confirm('Delete Document No. <?php echo $row_rsdoc['doc_no']; ?> ?')"
-                       title="Delete Data"><img src="images/icdel.png" width="15" height="15"></a>
+                       title="Delete Data">
+                        <img src="images/icdel.png" width="15" height="15">
+                    </a>
                 </td>
             <?php } ?>
 

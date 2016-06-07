@@ -63,7 +63,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
         GetSQLValueString($_POST['title'], "text"));
 
     mysql_select_db($database_core, $core);
-    $Result2 = mysql_query($insertSQL2, $core) or die(mysql_error());
+    $Result1 = mysql_query($insertSQL2, $core) or die(mysql_error());
 
 // on update close window handler
     // --> by yudis
@@ -107,7 +107,7 @@ $next = $awalQ + 1;
     <body class="General">
     <?php {
         include "../date.php";
-        include "uploadsop.php";
+        include "uploadhsedoc.php";
     } ?>
     <table width="800" border="0" cellpadding="3" cellspacing="3">
         <tr>
@@ -130,39 +130,17 @@ $next = $awalQ + 1;
                 <td width="3">:</td>
                 <td width="357">
                     <select name="inisial_pekerjaan" id="inisial_pekerjaan">
-                        <option value="WI" <?php if (isset($_GET['data'])) if ($_GET['data'] = 'WI') ?>
-                                selected="selected">Work Instruction
+                        <option value="WI">Work Instruction
                         </option>
 
-                        <option value="SOP" <?php if (isset($_GET['data'])) if ($_GET['data'] = 'SOP') ?>
-                                selected="selected">Standard Operating System
+                        <option value="form">Form
                         </option>
 
-                        <option value="form" <?php if (isset($_GET['data'])) if ($_GET['data'] = 'form') ?>
-                                selected="selected">Form
+                        <option value="SOP"
+                                selected="selected">Standard Operating Procedure
                         </option>
                     </select>
                 </td>
-            </tr>
-            <tr>
-                <td>Department</td>
-                <td>:</td>
-                <td><select name="id_dept" id="id_dept">
-                        <option value="">- Select Department -</option>
-                        <?php
-                        do {
-                            ?>
-                            <option
-                                value="<?php echo $row_rsdept['id'] ?>"><?php echo $row_rsdept['department'] ?></option>
-                            <?php
-                        } while ($row_rsdept = mysql_fetch_assoc($rsdept));
-                        $rows = mysql_num_rows($rsdept);
-                        if ($rows > 0) {
-                            mysql_data_seek($rsdept, 0);
-                            $row_rsdept = mysql_fetch_assoc($rsdept);
-                        }
-                        ?>
-                    </select></td>
             </tr>
             <tr>
                 <td>Document No.</td>
@@ -268,6 +246,7 @@ $next = $awalQ + 1;
                 <td><input type="submit" value="Submit"/></td>
             </tr>
         </table>
+        <input type="hidden" name="id_dept" id="id_dept" value=6>
         <input name="nama_fileps" type="hidden" id="nama_fileps" value="<?php echo $nama_file; ?>"/>
         <input type="hidden" name="idms" id="idms" value="<?php echo $next; ?>"/>
         <input type="hidden" name="MM_insert" value="form1"/>

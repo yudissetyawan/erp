@@ -42,7 +42,7 @@ if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
                        GetSQLValueString($_POST['doc_no'], "text"),
                        GetSQLValueString($_POST['rev'], "text"),
                        GetSQLValueString($_POST['efect_date'], "date"),
-                       GetSQLValueString($_POST['retention_time'], "retention_time"),
+                       GetSQLValueString($_POST['retention_time'], "text"),
                        GetSQLValueString($_POST['title'], "text"),
                        GetSQLValueString($_POST['id'], "int"));
 
