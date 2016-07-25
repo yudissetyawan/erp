@@ -42,12 +42,19 @@ if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
                        GetSQLValueString($_POST['doc_no'], "text"),
                        GetSQLValueString($_POST['title'], "text"),
                        GetSQLValueString($_POST['rev'], "text"),
-                       GetSQLValueString($_POST['efect_date'], "date"),
+                       GetSQLValueString($_POST['efect_date'], "text"),
                        GetSQLValueString($_POST['retention_time'], "text"),
                        GetSQLValueString($_POST['id'], "int"));
 
   mysql_select_db($database_core, $core);
   $Result1 = mysql_query($updateSQL, $core) or die(mysql_error());
+
+  $updateGoTo = "viewWI.php";
+  if (isset($_SERVER['QUERY_STRING'])) {
+    $updateGoTo .= (strpos($updateGoTo, '?')) ? "&" : "?";
+    $updateGoTo .= $_SERVER['QUERY_STRING'];
+  }
+  header(sprintf("Location: %s", $updateGoTo));
 }
 
 if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {

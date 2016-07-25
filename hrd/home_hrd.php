@@ -124,6 +124,8 @@ $usrid = $_SESSION['empID'];
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <title>Home HRD</title>
+<link href="absnkary/assets/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="absnkary/assets/eonasdan/build/css/bootstrap-datetimepicker.min.css" />
 <script type="text/javascript" src="../menu_assets/jquery.js"></script>
 <script type="text/javascript" src="../menu_assets/ddaccordion.js"></script>
 <style type="text/css">
@@ -263,7 +265,7 @@ ddaccordion.init({
 	animatedefault: false, //Should contents open by default be animated into view?
 	persiststate: true, //persist state of opened contents within browser session?
 	toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
-	, //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+    //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
 	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
 	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
 		//do nothing
@@ -409,6 +411,7 @@ a:active {
     <td align="right" class="General" id="font">&copy; 2012 Bukaka Balikpapan</td>
   </tr>
 </table>
+
 </body>
 </html>
 <?php

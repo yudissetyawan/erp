@@ -30,6 +30,41 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
   return $theValue;
 }
 }
+
+$editFormAction = $_SERVER['PHP_SELF'];
+if (isset($_SERVER['QUERY_STRING'])) {
+  $editFormAction .= "?" . htmlentities($_SERVER['QUERY_STRING']);
+}
+
+if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form1")) {
+  $updateSQL = sprintf("UPDATE q_ncr SET title_ncr=%s, dept=%s, supp=%s, req=%s, prod_code=%s, prod_code_other=%s, ncr_date=%s, apprv_det=%s, apprv_det_date=%s, dispositioner=%s, disp_date=%s, apprv_disp=%s, apprv_disp_date=%s, comp_date=%s, closed_by=%s, date_closed=%s, reviewed_by=%s, detail=%s, disp_correct=%s, disp_prevent=%s, `comment`=%s, cost=%s WHERE no_ncr=%s",
+                       GetSQLValueString($_POST['ncr'], "text"),
+                       GetSQLValueString($_POST['dept'], "int"),
+                       GetSQLValueString($_POST['supp'], "text"),
+                       GetSQLValueString($_POST['req'], "text"),
+                       GetSQLValueString($_POST['prod_code'], "int"),
+                       GetSQLValueString($_POST['prod_code'], "text"),
+                       GetSQLValueString($_POST['date'], "date"),
+                       GetSQLValueString($_POST['apprv_det'], "int"),
+                       GetSQLValueString($_POST['apprv_det_date'], "date"),
+                       GetSQLValueString($_POST['dispositioner'], "int"),
+                       GetSQLValueString($_POST['disp_date'], "date"),
+                       GetSQLValueString($_POST['apprv_disp'], "int"),
+                       GetSQLValueString($_POST['apprv_disp_date'], "date"),
+                       GetSQLValueString($_POST['comp_date'], "date"),
+                       GetSQLValueString($_POST['closed_by'], "int"),
+                       GetSQLValueString($_POST['tanggalclosed'], "date"),
+                       GetSQLValueString($_POST['reviewed_by'], "int"),
+                       GetSQLValueString($_POST['detail'], "text"),
+                       GetSQLValueString($_POST['disp_corect'], "text"),
+                       GetSQLValueString($_POST['disp_prevent'], "text"),
+                       GetSQLValueString($_POST['comment'], "text"),
+                       GetSQLValueString($_POST['cost'], "text"),
+                       GetSQLValueString($_POST['no_ncr'], "text"));
+
+  mysql_select_db($database_core, $core);
+  $Result1 = mysql_query($updateSQL, $core) or die(mysql_error());
+}
 mysql_select_db($database_core, $core);
 $query_h_dept = "SELECT h_department.department FROM h_department, q_ncr WHERE h_department.id = q_ncr.dept";
 $h_dept = mysql_query($query_h_dept, $core) or die(mysql_error());
@@ -149,7 +184,7 @@ $totalRows_reviewed_by = mysql_num_rows($reviewed_by);
 		require_once "../dateformat_funct.php";
 	} ?>
 
-<form id="form1" name="form1">
+<form method="POST" action="<?php echo $editFormAction; ?>" id="form1" name="form1">
   <table width="1000" border="0">
     <tr class="tabel_header">
       <td colspan="7" align="center"><strong>NON CONFORMANCE REPORT</strong></td>
@@ -288,7 +323,7 @@ do {
       <td>&nbsp;</td>
       <td><label for="disp">
         <select name="dispositioner" id="dispositioner">
-        <option value="<?php echo $row_dispositioner['dispositioner']; ?>"><?php echo $row_dispositioner['firstname']; ?> <?php echo $row_dispositioner['midlename']; ?> <?php echo $row_dispositioner['lastname']; ?></option>
+          <option value="<?php echo $row_dispositioner['dispositioner']; ?>"><?php echo $row_dispositioner['firstname']; ?> <?php echo $row_dispositioner['midlename']; ?> <?php echo $row_dispositioner['lastname']; ?></option>
           <?php
 do {  
 ?>
@@ -327,8 +362,8 @@ do {
       <td>Date</td>
       <td>&nbsp;</td>
       <td><label for="disp_date"></label>
-        <span id="sprytextfield3">
-        <input name="disp_date" type="text" id="tanggal3" value="<?php echo $row_q_ncr['disp_date']; ?>" />
+      <span id="sprytextfield3">
+      <input name="disp_date" type="text" id="tanggal3" value="<?php echo $row_q_ncr['disp_date']; ?>" />
       <span class="textfieldRequiredMsg">A value is required.</span></span></td>
       <td>Date</td>
       <td>&nbsp;</td>
@@ -391,17 +426,26 @@ do {
       </select></td>
     </tr>
     <tr>
+      <td>Date :</td>
+      <td>&nbsp;</td>
+      <td colspan="5"><input name="tanggalclosed" type="text" id="tanggal10" value="<?php echo $row_q_ncr['date_closed']; ?>" /></td>
+    </tr>
+    <tr>
       <td>Comment</td>
       <td>&nbsp;</td>
-      <td colspan="5"><label for="comment"></label>
+      <td><label for="comment"></label>
         <label for="comment2"></label>
       <textarea name="comment" id="comment2" cols="45" rows="5"><?php echo $row_q_ncr['comment']; ?></textarea></td>
+      <td>Cost</td>
+      <td>&nbsp;</td>
+      <td colspan="2"><input type="text" name="cost" id="cost" value="<?php echo $row_q_ncr['cost']; ?>" /></td>
     </tr>
     <tr>
       <td colspan="7" align="center"><a href="ncr_header.php"><input type="submit" name="submit" id="submit" value="Submit" /></a></td>
     </tr>
   </table>
   <input type="hidden" name="MM_insert" value="form1" />
+  <input type="hidden" name="MM_update" value="form1" />
 </form>
 <script type="text/javascript">
 var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");

@@ -38,70 +38,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="viewSOP.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dcc/viewSOP.php">
+      <file leaf-file-name="timecard.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+            <state relative-caret-position="523">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding>
-                <marker date="1464662053353" expanded="true" signature="1348:1793" placeholder="SELECT d_sop... d_sop" />
+                <marker date="1468430735087" expanded="true" signature="1083:1165" placeholder="SELECT id, n... h_employee" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delsop.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dcc/delsop.php">
+      <file leaf-file-name="timecarddetail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecarddetail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+            <state relative-caret-position="494">
+              <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
               <folding>
-                <marker date="1464155847638" expanded="true" signature="1098:1127" placeholder="DELETE FROM " />
+                <marker date="1469190970065" expanded="true" signature="1620:1692" placeholder="SELECT * FRO... h_employee" />
+                <marker date="1469190970065" expanded="true" signature="1620:1694" placeholder="SELECT * FRO... h_employee" />
+                <marker date="1469190970065" expanded="true" signature="1620:1722" placeholder="SELECT * FRO... h_employee" />
+                <marker date="1469190970065" expanded="true" signature="2097:2288" placeholder="SELECT * FRO... h_absen_core" />
+                <marker date="1469190970065" expanded="true" signature="2097:2346" placeholder="SELECT * FRO... h_absen_core" />
+                <marker date="1469190970065" expanded="true" signature="2097:2347" placeholder="SELECT * FRO... h_absen_core" />
+                <marker date="1469190970065" expanded="true" signature="2097:2348" placeholder="SELECT * FRO... h_absen_core" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_hse.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hse/home_hse.php">
+      <file leaf-file-name="excel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="240" column="34" selection-start-line="240" selection-start-column="34" selection-end-line="240" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hsedoc_view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hse/hsedoc_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1325">
-              <caret line="145" column="17" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+            <state relative-caret-position="446">
+              <caret line="231" column="0" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
               <folding>
-                <element signature="e#6883#7233#0#PHP" expanded="true" />
-                <marker date="1464664155682" expanded="true" signature="1430:1799" placeholder="SELECT d_sop... d_sop" />
-                <marker date="1464664155682" expanded="true" signature="1867:2236" placeholder="SELECT d_sop... d_sop" />
-                <marker date="1464664155682" expanded="true" signature="2535:2579" placeholder="SELECT * FRO... d_xdoc_catg" />
-                <marker date="1464664155682" expanded="true" signature="2956:2981" placeholder="SELECT * FRO... d_xdoc_catg" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edithsedoc.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hse/edithsedoc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
-              <folding>
-                <marker date="1464597831740" expanded="true" signature="1467:1550" placeholder="UPDATE d_sop... " />
-                <marker date="1464597831740" expanded="true" signature="2277:2392" placeholder="UPDATE dms S... " />
-                <marker date="1464597831740" expanded="true" signature="2954:3134" placeholder="..." />
-                <marker date="1464597831740" expanded="true" signature="3075:3123" placeholder="{...}" />
-                <marker date="1464597831740" expanded="true" signature="3202:3252" placeholder="SELECT * FRO... h_department" />
-                <marker date="1464597831740" expanded="true" signature="3602:3635" placeholder="SELECT * FRO... d_sop" />
-                <marker date="1464597831740" expanded="true" signature="4033:4066" placeholder="SELECT * FRO... dms" />
-                <marker date="1464597831740" expanded="true" signature="4340:4383" placeholder="SELECT * FRO... d_sop" />
+                <marker date="1469194127050" expanded="true" signature="1821:1893" placeholder="SELECT * FRO... h_employee" />
+                <marker date="1469194127050" expanded="true" signature="2298:2548" placeholder="SELECT * FRO... h_absen_core" />
               </folding>
             </state>
           </provider>
@@ -110,88 +84,109 @@
       <file leaf-file-name="editWI.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dcc/editWI.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <marker date="1468563148853" expanded="true" signature="1264:1304" placeholder="UPDATE d_sop... " />
+                <marker date="1468563148853" expanded="true" signature="1264:1366" placeholder="UPDATE d_sop... " />
+                <marker date="1468563148853" expanded="true" signature="2229:2344" placeholder="UPDATE dms S... " />
+                <marker date="1468563148853" expanded="true" signature="3004:3184" placeholder="..." />
+                <marker date="1468563148853" expanded="true" signature="3125:3173" placeholder="{...}" />
+                <marker date="1468563148853" expanded="true" signature="3252:3302" placeholder="SELECT * FRO... h_department" />
+                <marker date="1468563148853" expanded="true" signature="3650:3683" placeholder="SELECT * FRO... d_sop" />
+                <marker date="1468563148853" expanded="true" signature="4079:4141" placeholder="SELECT * FRO... dms" />
+                <marker date="1468563148853" expanded="true" signature="4413:4456" placeholder="SELECT * FRO... d_sop" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="absen.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrd/absnkary/absen.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="523">
-              <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+              <caret line="124" column="61" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
               <folding>
-                <marker date="1464761226326" expanded="true" signature="1264:1347" placeholder="UPDATE d_sop... " />
-                <marker date="1464761226326" expanded="true" signature="2210:2325" placeholder="UPDATE dms S... " />
-                <marker date="1464761226326" expanded="true" signature="2985:3165" placeholder="..." />
-                <marker date="1464761226326" expanded="true" signature="3006:3165" placeholder="..." />
-                <marker date="1464761226326" expanded="true" signature="3106:3154" placeholder="{...}" />
-                <marker date="1464761226326" expanded="true" signature="3233:3283" placeholder="SELECT * FRO... h_department" />
-                <marker date="1464761226326" expanded="true" signature="3631:3664" placeholder="SELECT * FRO... d_sop" />
-                <marker date="1464761226326" expanded="true" signature="4060:4122" placeholder="SELECT * FRO... dms" />
-                <marker date="1464761226326" expanded="true" signature="4394:4437" placeholder="SELECT * FRO... d_sop" />
+                <marker date="1423813422854" expanded="true" signature="1870:2015" placeholder="SELECT h_emp... h_employee" />
+                <marker date="1423813422854" expanded="true" signature="2339:2488" placeholder="SELECT h_abs... h_absen_header" />
+                <marker date="1423813422854" expanded="true" signature="2779:3215" placeholder="SELECT a.id,... h_absen" />
+                <marker date="1423813422854" expanded="true" signature="3458:3487" placeholder="SELECT * FRO... h_absen_inisial" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inputselection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dcc/inputselection.php">
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrd/absnkary/assets/bootstrap-3.3.6-dist/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
-              <folding>
-                <marker date="1464660285443" expanded="true" signature="1507:1649" placeholder="INSERT INTO d_sop... " />
-                <marker date="1464660285443" expanded="true" signature="2336:2456" placeholder="INSERT INTO dms... " />
-                <marker date="1464660285443" expanded="true" signature="2998:3178" placeholder="..." />
-                <marker date="1464660285443" expanded="true" signature="3019:3178" placeholder="..." />
-                <marker date="1464660285443" expanded="true" signature="3119:3167" placeholder="{...}" />
-                <marker date="1464660285443" expanded="true" signature="3242:3288" placeholder="SELECT * FRO... h_department" />
-                <marker date="1464660285443" expanded="true" signature="3489:3533" placeholder="SELECT * FRO... d_sop" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ddb98604-f7ba-4d88-a087-9bd65d7346f2/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="445" selection-start-line="0" selection-start-column="445" selection-end-line="0" selection-end-column="445" />
+            <state relative-caret-position="4522">
+              <caret line="266" column="139" selection-start-line="266" selection-start-column="135" selection-end-line="266" selection-end-column="139" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editSOP.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dcc/editSOP.php">
+      <file leaf-file-name="home_hrd.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrd/home_hrd.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="7004">
+              <caret line="412" column="8" selection-start-line="412" selection-start-column="8" selection-end-line="412" selection-end-column="8" />
               <folding>
-                <marker date="1464160559805" expanded="true" signature="1467:1550" placeholder="UPDATE d_sop... " />
-                <marker date="1464160559805" expanded="true" signature="2277:2392" placeholder="UPDATE dms S... " />
-                <marker date="1464160559805" expanded="true" signature="2954:3134" placeholder="..." />
-                <marker date="1464160559805" expanded="true" signature="3075:3123" placeholder="{...}" />
-                <marker date="1464160559805" expanded="true" signature="3202:3252" placeholder="SELECT * FRO... h_department" />
-                <marker date="1464160559805" expanded="true" signature="3602:3635" placeholder="SELECT * FRO... d_sop" />
-                <marker date="1464160559805" expanded="true" signature="4033:4066" placeholder="SELECT * FRO... dms" />
-                <marker date="1464160559805" expanded="true" signature="4340:4383" placeholder="SELECT * FRO... d_sop" />
+                <marker date="1468433152750" expanded="true" signature="3729:3773" placeholder="SELECT * FRO... h_employee" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dcc/editForm.php">
+      <file leaf-file-name="moment.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrd/absnkary/assets/moment/moment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+            <state relative-caret-position="7939">
+              <caret line="471" column="7" selection-start-line="471" selection-start-column="7" selection-end-line="471" selection-end-column="7" />
               <folding>
-                <marker date="1464761311764" expanded="true" signature="1264:1399" placeholder="UPDATE d_sop... " />
-                <marker date="1464761311764" expanded="true" signature="2207:2387" placeholder="..." />
-                <marker date="1464761311764" expanded="true" signature="2328:2376" placeholder="{...}" />
-                <marker date="1464761311764" expanded="true" signature="2452:2498" placeholder="SELECT * FRO... h_department" />
-                <marker date="1464761311764" expanded="true" signature="2822:2855" placeholder="SELECT * FRO... d_sop" />
-                <marker date="1464761311764" expanded="true" signature="3129:3173" placeholder="SELECT * FRO... d_sop" />
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3264">
+              <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
+              <folding>
+                <marker date="1461798535517" expanded="true" signature="1640:1726" placeholder="SELECT usern... h_employee" />
+                <marker date="1461798535517" expanded="true" signature="2635:2707" placeholder="SELECT * FRO... h_employee" />
+                <marker date="1461798535517" expanded="true" signature="3295:3507" placeholder="INSERT INTO a_user... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timeattendance.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <marker date="1460369546792" expanded="true" signature="348:398" placeholder="SELECT * FRO... h_employee" />
+                <marker date="1460369546792" expanded="true" signature="723:797" placeholder="SELECT * FRO... h_absen_core" />
+                <marker date="1460369546792" expanded="true" signature="1166:1232" placeholder="INSERT INTO h_absen_core... " />
+                <marker date="1460369546792" expanded="true" signature="2214:2311" placeholder="UPDATE h_abs... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -202,8 +197,6 @@
         <option value="$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple-download-xls.php" />
         <option value="$PROJECT_DIR$/hrd/absnkary/timeattendance.php" />
         <option value="$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple.php" />
-        <option value="$PROJECT_DIR$/hrd/absnkary/excel.php" />
-        <option value="$PROJECT_DIR$/hrd/absnkary/timecarddetail.php" />
         <option value="$PROJECT_DIR$/Connections/core.php" />
         <option value="$PROJECT_DIR$/js/jquery.jeditable.js" />
         <option value="$PROJECT_DIR$/js/jquery.blockui.js" />
@@ -221,8 +214,15 @@
         <option value="$PROJECT_DIR$/dcc/viewSOP.php" />
         <option value="$PROJECT_DIR$/hse/hsedoc_view.php" />
         <option value="$PROJECT_DIR$/hse/delhsedoc.php" />
-        <option value="$PROJECT_DIR$/dcc/editWI.php" />
         <option value="$PROJECT_DIR$/dcc/editForm.php" />
+        <option value="$PROJECT_DIR$/hrd/absnkary/assets/jquery1.11.3/jquery.js" />
+        <option value="$PROJECT_DIR$/hrd/absnkary/assets/moment/moment.min.js" />
+        <option value="$PROJECT_DIR$/hrd/absnkary/assets/bootstrap-3.3.6-dist/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/hrd/absnkary/timecard.php" />
+        <option value="$PROJECT_DIR$/hrd/home_hrd.php" />
+        <option value="$PROJECT_DIR$/dcc/editWI.php" />
+        <option value="$PROJECT_DIR$/hrd/absnkary/timecarddetail.php" />
+        <option value="$PROJECT_DIR$/hrd/absnkary/excel.php" />
       </list>
     </option>
   </component>
@@ -302,7 +302,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hse" />
+              <option name="myItemId" value="hrd" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,7 +316,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dcc" />
+              <option name="myItemId" value="hrd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="absnkary" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,13 +337,13 @@
     <property name="last_opened_file_path" value="C:/Program Files (x86)/PHP/v5.5" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\inetpub\wwwroot\erp\hse" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\inetpub\wwwroot\erp\hse" />
       <recent name="C:\inetpub\wwwroot\erp\dcc" />
       <recent name="C:\inetpub\wwwroot\erp\hrd\absnkary" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\inetpub\wwwroot\erp\hse" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.viewform2.php">
@@ -420,6 +424,9 @@
       <workItem from="1464151967301" duration="11660000" />
       <workItem from="1464589627358" duration="8943000" />
       <workItem from="1464658936140" duration="8610000" />
+      <workItem from="1468236923934" duration="912000" />
+      <workItem from="1468412133406" duration="34483000" />
+      <workItem from="1469171992255" duration="11401000" />
     </task>
     <task id="LOCAL-00001" summary="phpstorm">
       <created>1463996876913</created>
@@ -446,7 +453,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93924000" />
+    <option name="totallyTimeSpent" value="140720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,49 +466,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31543118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33123028" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28477904" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3207262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21406959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5030257" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21406959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33123028" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28550932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19785276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21406959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28477904" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -529,7 +515,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="repair input form button&#10;and input sellection retention time" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -545,321 +533,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Documentation/Examples/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/14excel5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/kps/uploadnilai.php" />
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/04printing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/Classes/PHPExcel/Cell/DataType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/Classes/PHPExcel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecarddetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/ddb98604-f7ba-4d88-a087-9bd65d7346f2">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>ddb98604-f7ba-4d88-a087-9bd65d7346f2</OriginalElement>
-          <nodes>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_issue</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_dwnlistofnodwn</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.i_news</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_progress_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_monitoring_activity_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_e_grade</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_suratizin</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_kategori_training</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_welding_map</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_major_activities</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_realtime_absen_masuk</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wbs_cost</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_design_change</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_welding_history</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_vendorcatg</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vwdeptdoc</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_wip_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.system_log</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_cpar</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_absen_status4rekap</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_jenis_training</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_resume</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_mom</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_manpower_loading</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.product</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_crf_design</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_progress</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.contact_us</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_statusengine</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_material_category</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vw_wi</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.j_crf_unused</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_po_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_ctr</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_bahasa</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_milestone</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_wip_invoice</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_monitoring_activity_header_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_core_bom</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_progress</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master_status</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.dms</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_allcumm</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_dwngroupwork</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_site</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_material_traceability</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_material_grade</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_daily_report_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_xdoc</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_incoming_insp_report</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_proj_code</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_category</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_mon_location</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_e_std</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_bpb_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_user</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_clothing_size</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_mr_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_material_pricing</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_production_item</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_pra_code</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_progress_detail</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wbs_cost_new</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_po_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master_prop</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_dinasluar</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_bom_file</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_bbk_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_absen</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_progress_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_sop</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_mr_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_ppereq_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_mtrl_verifi_identification</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_bulan</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.log_pesan</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_monitoring_activity_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_absen_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_header_bom</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.log_pesan_cat</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_ncr</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_mrsr_monitoring_status</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_material_sub_category</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_out_mail</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vw_sop</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_inspectionndtest_plan</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_header_wpr</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_department</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_corecomulative</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.z_mrsr_monitoring_status</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_total_ctr</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_comulative</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_timesheet</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_lampiran</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master_2</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_datapribadi</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.notifikasi</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_production_internal</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_daily_report_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_mcu</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_btb_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_ctrdata</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master_catg</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_do_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_progress_core_scopework</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_design_plan</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_bpb_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_si_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_masterndstatus</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_certificate_product</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.masterkey</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_e_model</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_jenis</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_expnbal</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_dimensional_check</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_penghargaan</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_xdoc_catg</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_category_product</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_manpower_loading_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_summary</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.phone_book</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_job_position</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_ccomplaint</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_typeofwork</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_monoftoolsusage</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_budget_code</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_progress_head</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_pl_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_recruitment</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pc_shipmentloc</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_crf_schedulle</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_bbk_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_expend</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_absen_inisial</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_e_type</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_cuti</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_final_insp_report</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_employee</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pc_shipment_term</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_monitoring_activity_core_log</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.f_site_platform</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_core_ctrdata</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pc_termsofpay</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_dataortu</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_progress_core_workstatus</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_training_klasifikasi</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_dimensi</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_org_chart</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_material</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_status</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_bantuan</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_tanggal</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_children</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_project_detail</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_status</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_mon_tools</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_jenis_izin</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_perusahaan</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_framemodel</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_selection_test</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_bpjs_idcard</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_orgdoc_catg</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_si_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_ctr_detailklo</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_datakeluarga</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_welding_insp_report</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_crf</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_training</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_do_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_btb_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_hadir</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_outgoing_insp_report</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_wps</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_customer</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_unit</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_wip_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.c_vendor</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_painting_insp_report</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_selection_skilltest</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_sim</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_prop_complete</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_header_core_bom</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.q_verification_report</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_experiences</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_production_code</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_jenis</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_frameheader</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.d_jenis_mom</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_absen_core</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_unit_conv</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.e_drawing_file</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.h_selection_interview</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.a_contactperson</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.s_qsop</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.inisial_pekerjaan</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.i_user_log</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.fn_asset_inv</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_ppereq_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.m_master_subcatg</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_stock_item</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.p_pl_header</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_wpr_activities</node>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.TABLE:form_erp.pr_weightfactor</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.7544119763926874" x="319.0" y="241.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vw_wi">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vw_wi</OriginalElement>
-          <nodes>
-            <node x="" y="">ddb98604-f7ba-4d88-a087-9bd65d7346f2.VIEW:form_erp.vw_wi</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9" x="152.0" y="148.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/8e0cde9d/ddb98604-f7ba-4d88-a087-9bd65d7346f2/form_erp.h_absen_core" />
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel/Examples/01simple-download-xls.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -914,9 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6834">
           <caret line="402" column="25" selection-start-line="402" selection-start-column="25" selection-end-line="402" selection-end-column="25" />
-          <folding>
-            <marker date="1463620362168" expanded="true" signature="3731:3775" placeholder="SELECT * FRO... h_employee" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,9 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <marker date="1464154567782" expanded="true" signature="1098:1127" placeholder="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,9 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3366">
           <caret line="198" column="24" selection-start-line="198" selection-start-column="24" selection-end-line="202" selection-end-column="28" />
-          <folding>
-            <marker date="1464163992009" expanded="true" signature="1386:1832" placeholder="SELECT d_sop... d_sop" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,15 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1405390264380" expanded="true" signature="1264:1351" placeholder="INSERT INTO d_sop... " />
-            <marker date="1405390264380" expanded="true" signature="1904:2024" placeholder="INSERT INTO dms... " />
-            <marker date="1405390264380" expanded="true" signature="2582:2758" placeholder="..." />
-            <marker date="1405390264380" expanded="true" signature="2699:2747" placeholder="{...}" />
-            <marker date="1405390264380" expanded="true" signature="2826:2876" placeholder="SELECT * FRO... h_department" />
-            <marker date="1405390264380" expanded="true" signature="3119:3138" placeholder="SELECT * FRO... d_sop" />
-            <marker date="1405390264380" expanded="true" signature="3361:3405" placeholder="SELECT * FRO... d_sop" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,15 +714,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-          <folding>
-            <marker date="1464660234562" expanded="true" signature="1507:1649" placeholder="INSERT INTO d_sop... " />
-            <marker date="1464660234562" expanded="true" signature="2336:2456" placeholder="INSERT INTO dms... " />
-            <marker date="1464660234562" expanded="true" signature="2998:3178" placeholder="..." />
-            <marker date="1464660234562" expanded="true" signature="3119:3167" placeholder="{...}" />
-            <marker date="1464660234562" expanded="true" signature="3242:3269" placeholder="SELECT * FRO... h_department" />
-            <marker date="1464660234562" expanded="true" signature="3242:3288" placeholder="SELECT * FRO... h_department" />
-            <marker date="1464660234562" expanded="true" signature="3489:3533" placeholder="SELECT * FRO... d_sop" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hse/delhsedoc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/editSOP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/editForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/viewSOP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcc/delsop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hse/home_hse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="240" column="34" selection-start-line="240" selection-start-column="34" selection-end-line="240" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hse/hsedoc_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="145" column="17" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hse/edithsedoc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="118" column="2" selection-start-line="118" selection-start-column="2" selection-end-line="118" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1077,15 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
-          <folding>
-            <marker date="1464660285443" expanded="true" signature="1507:1649" placeholder="INSERT INTO d_sop... " />
-            <marker date="1464660285443" expanded="true" signature="2336:2456" placeholder="INSERT INTO dms... " />
-            <marker date="1464660285443" expanded="true" signature="2998:3178" placeholder="..." />
-            <marker date="1464660285443" expanded="true" signature="3019:3178" placeholder="..." />
-            <marker date="1464660285443" expanded="true" signature="3119:3167" placeholder="{...}" />
-            <marker date="1464660285443" expanded="true" signature="3242:3288" placeholder="SELECT * FRO... h_department" />
-            <marker date="1464660285443" expanded="true" signature="3489:3533" placeholder="SELECT * FRO... d_sop" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1097,135 +788,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hse/delhsedoc.php">
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/rkpabsn_harian.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timeattendance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <marker date="1464664608909" expanded="true" signature="9:101" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1464664608909" expanded="true" signature="209:1324" placeholder="..." />
-            <marker date="1464664608909" expanded="true" signature="310:1323" placeholder="{...}" />
-            <marker date="1464664608909" expanded="true" signature="347:442" placeholder="..." />
-            <marker date="1464664608909" expanded="true" signature="609:1290" placeholder="..." />
-            <marker date="1464664608909" expanded="true" signature="634:737" placeholder="..." />
-            <marker date="1464664608909" expanded="true" signature="786:885" placeholder="..." />
-            <marker date="1464664608909" expanded="true" signature="912:1014" placeholder="..." />
-            <marker date="1464664608909" expanded="true" signature="1039:1142" placeholder="..." />
-            <marker date="1464664608909" expanded="true" signature="1170:1281" placeholder="..." />
-            <marker date="1464664608909" expanded="true" signature="1381:1855" placeholder="..." />
-            <marker date="1464664608909" expanded="true" signature="1407:1489" placeholder="..." />
-            <marker date="1464664608909" expanded="true" signature="1408:1439" placeholder="DELETE FROM " />
-            <marker date="1464664608909" expanded="true" signature="1437:1439" placeholder="DELETE FROM " />
-            <marker date="1464664608909" expanded="true" signature="1686:1803" placeholder="..." />
+            <marker date="1460369546792" expanded="true" signature="348:398" placeholder="SELECT * FRO... h_employee" />
+            <marker date="1460369546792" expanded="true" signature="723:797" placeholder="SELECT * FRO... h_absen_core" />
+            <marker date="1460369546792" expanded="true" signature="1166:1232" placeholder="INSERT INTO h_absen_core... " />
+            <marker date="1460369546792" expanded="true" signature="2214:2311" placeholder="UPDATE h_abs... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dcc/delsop.php">
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/assets/jquery1.11.3/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-          <folding>
-            <marker date="1464155847638" expanded="true" signature="1098:1127" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hse/home_hse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="240" column="34" selection-start-line="240" selection-start-column="34" selection-end-line="240" selection-end-column="49" />
+        <state relative-caret-position="549">
+          <caret line="10351" column="0" selection-start-line="10351" selection-start-column="0" selection-end-line="10351" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hse/hsedoc_view.php">
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/assets/moment/moment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="145" column="17" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
+        <state relative-caret-position="7939">
+          <caret line="471" column="7" selection-start-line="471" selection-start-column="7" selection-end-line="471" selection-end-column="7" />
           <folding>
-            <element signature="e#6883#7233#0#PHP" expanded="true" />
-            <marker date="1464664155682" expanded="true" signature="1430:1799" placeholder="SELECT d_sop... d_sop" />
-            <marker date="1464664155682" expanded="true" signature="1867:2236" placeholder="SELECT d_sop... d_sop" />
-            <marker date="1464664155682" expanded="true" signature="2535:2579" placeholder="SELECT * FRO... d_xdoc_catg" />
-            <marker date="1464664155682" expanded="true" signature="2956:2981" placeholder="SELECT * FRO... d_xdoc_catg" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dcc/viewSOP.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+        <state relative-caret-position="3264">
+          <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
           <folding>
-            <marker date="1464662053353" expanded="true" signature="1348:1793" placeholder="SELECT d_sop... d_sop" />
+            <marker date="1461798535517" expanded="true" signature="1640:1726" placeholder="SELECT usern... h_employee" />
+            <marker date="1461798535517" expanded="true" signature="2635:2707" placeholder="SELECT * FRO... h_employee" />
+            <marker date="1461798535517" expanded="true" signature="3295:3507" placeholder="INSERT INTO a_user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/assets/bootstrap-3.3.6-dist/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="1540" column="14" selection-start-line="1540" selection-start-column="12" selection-end-line="1540" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/assets/bootstrap-3.3.6-dist/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/assets/bootstrap-3.3.6-dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4522">
+          <caret line="266" column="139" selection-start-line="266" selection-start-column="135" selection-end-line="266" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/home_hrd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7004">
+          <caret line="412" column="8" selection-start-line="412" selection-start-column="8" selection-end-line="412" selection-end-column="8" />
+          <folding>
+            <marker date="1468433152750" expanded="true" signature="3729:3773" placeholder="SELECT * FRO... h_employee" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/standardSchemas/xhtml1-transitional.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="634" column="29" selection-start-line="634" selection-start-column="25" selection-end-line="634" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/absen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="124" column="61" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
+          <folding>
+            <marker date="1423813422854" expanded="true" signature="1870:2015" placeholder="SELECT h_emp... h_employee" />
+            <marker date="1423813422854" expanded="true" signature="2339:2488" placeholder="SELECT h_abs... h_absen_header" />
+            <marker date="1423813422854" expanded="true" signature="2779:3215" placeholder="SELECT a.id,... h_absen" />
+            <marker date="1423813422854" expanded="true" signature="3458:3487" placeholder="SELECT * FRO... h_absen_inisial" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dcc/editWI.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <marker date="1468563148853" expanded="true" signature="1264:1304" placeholder="UPDATE d_sop... " />
+            <marker date="1468563148853" expanded="true" signature="1264:1366" placeholder="UPDATE d_sop... " />
+            <marker date="1468563148853" expanded="true" signature="2229:2344" placeholder="UPDATE dms S... " />
+            <marker date="1468563148853" expanded="true" signature="3004:3184" placeholder="..." />
+            <marker date="1468563148853" expanded="true" signature="3125:3173" placeholder="{...}" />
+            <marker date="1468563148853" expanded="true" signature="3252:3302" placeholder="SELECT * FRO... h_department" />
+            <marker date="1468563148853" expanded="true" signature="3650:3683" placeholder="SELECT * FRO... d_sop" />
+            <marker date="1468563148853" expanded="true" signature="4079:4141" placeholder="SELECT * FRO... dms" />
+            <marker date="1468563148853" expanded="true" signature="4413:4456" placeholder="SELECT * FRO... d_sop" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecard.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
-          <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
-            <marker date="1464761226326" expanded="true" signature="1264:1347" placeholder="UPDATE d_sop... " />
-            <marker date="1464761226326" expanded="true" signature="2210:2325" placeholder="UPDATE dms S... " />
-            <marker date="1464761226326" expanded="true" signature="2985:3165" placeholder="..." />
-            <marker date="1464761226326" expanded="true" signature="3006:3165" placeholder="..." />
-            <marker date="1464761226326" expanded="true" signature="3106:3154" placeholder="{...}" />
-            <marker date="1464761226326" expanded="true" signature="3233:3283" placeholder="SELECT * FRO... h_department" />
-            <marker date="1464761226326" expanded="true" signature="3631:3664" placeholder="SELECT * FRO... d_sop" />
-            <marker date="1464761226326" expanded="true" signature="4060:4122" placeholder="SELECT * FRO... dms" />
-            <marker date="1464761226326" expanded="true" signature="4394:4437" placeholder="SELECT * FRO... d_sop" />
+            <marker date="1468430735087" expanded="true" signature="1083:1165" placeholder="SELECT id, n... h_employee" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dcc/editSOP.php">
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/timecarddetail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="494">
+          <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
           <folding>
-            <marker date="1464160559805" expanded="true" signature="1467:1550" placeholder="UPDATE d_sop... " />
-            <marker date="1464160559805" expanded="true" signature="2277:2392" placeholder="UPDATE dms S... " />
-            <marker date="1464160559805" expanded="true" signature="2954:3134" placeholder="..." />
-            <marker date="1464160559805" expanded="true" signature="3075:3123" placeholder="{...}" />
-            <marker date="1464160559805" expanded="true" signature="3202:3252" placeholder="SELECT * FRO... h_department" />
-            <marker date="1464160559805" expanded="true" signature="3602:3635" placeholder="SELECT * FRO... d_sop" />
-            <marker date="1464160559805" expanded="true" signature="4033:4066" placeholder="SELECT * FRO... dms" />
-            <marker date="1464160559805" expanded="true" signature="4340:4383" placeholder="SELECT * FRO... d_sop" />
+            <marker date="1469190970065" expanded="true" signature="1620:1692" placeholder="SELECT * FRO... h_employee" />
+            <marker date="1469190970065" expanded="true" signature="1620:1694" placeholder="SELECT * FRO... h_employee" />
+            <marker date="1469190970065" expanded="true" signature="1620:1722" placeholder="SELECT * FRO... h_employee" />
+            <marker date="1469190970065" expanded="true" signature="2097:2288" placeholder="SELECT * FRO... h_absen_core" />
+            <marker date="1469190970065" expanded="true" signature="2097:2346" placeholder="SELECT * FRO... h_absen_core" />
+            <marker date="1469190970065" expanded="true" signature="2097:2347" placeholder="SELECT * FRO... h_absen_core" />
+            <marker date="1469190970065" expanded="true" signature="2097:2348" placeholder="SELECT * FRO... h_absen_core" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dcc/editForm.php">
+    <entry file="file://$PROJECT_DIR$/hrd/absnkary/excel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+        <state relative-caret-position="446">
+          <caret line="231" column="0" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
           <folding>
-            <marker date="1464761311764" expanded="true" signature="1264:1399" placeholder="UPDATE d_sop... " />
-            <marker date="1464761311764" expanded="true" signature="2207:2387" placeholder="..." />
-            <marker date="1464761311764" expanded="true" signature="2328:2376" placeholder="{...}" />
-            <marker date="1464761311764" expanded="true" signature="2452:2498" placeholder="SELECT * FRO... h_department" />
-            <marker date="1464761311764" expanded="true" signature="2822:2855" placeholder="SELECT * FRO... d_sop" />
-            <marker date="1464761311764" expanded="true" signature="3129:3173" placeholder="SELECT * FRO... d_sop" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hse/edithsedoc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
-          <folding>
-            <marker date="1464597831740" expanded="true" signature="1467:1550" placeholder="UPDATE d_sop... " />
-            <marker date="1464597831740" expanded="true" signature="2277:2392" placeholder="UPDATE dms S... " />
-            <marker date="1464597831740" expanded="true" signature="2954:3134" placeholder="..." />
-            <marker date="1464597831740" expanded="true" signature="3075:3123" placeholder="{...}" />
-            <marker date="1464597831740" expanded="true" signature="3202:3252" placeholder="SELECT * FRO... h_department" />
-            <marker date="1464597831740" expanded="true" signature="3602:3635" placeholder="SELECT * FRO... d_sop" />
-            <marker date="1464597831740" expanded="true" signature="4033:4066" placeholder="SELECT * FRO... dms" />
-            <marker date="1464597831740" expanded="true" signature="4340:4383" placeholder="SELECT * FRO... d_sop" />
+            <marker date="1469194127050" expanded="true" signature="1821:1893" placeholder="SELECT * FRO... h_employee" />
+            <marker date="1469194127050" expanded="true" signature="2298:2548" placeholder="SELECT * FRO... h_absen_core" />
           </folding>
         </state>
       </provider>

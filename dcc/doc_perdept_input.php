@@ -174,7 +174,7 @@ $next = $cekQ + 1;
       <tr>
         <td>Document No.</td>
         <td>:</td>
-        <td><input type="text" name="xdoc_no" value="" size="20" /></td>
+        <td><input type="text" name="xdoc_no" value="" size="25" /></td>
       </tr>
       <tr>
         <td>Revision</td>
@@ -224,7 +224,7 @@ $next = $cekQ + 1;
       </tr>
     </table>
     
-      <input type="hidden" name="nama_fileps" id="nama_fileps" value="<?php echo $nama_file;?>"/>
+  <input type="hidden" name="nama_fileps" id="nama_fileps" value="<?php echo $nama_file;?>"/>
       <input type="hidden" name="idms" id="idms" value="<?php echo $next; ?>" />
     <input type="hidden" name="MM_insert" value="form1" />
 </form>

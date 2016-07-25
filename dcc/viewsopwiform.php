@@ -301,7 +301,7 @@ a:active {
               <a class="menuitem submenu" href="?modul=ohsdoc">HSe Document (OHSAS 18001)</a>
               <a class="menuitem submenu" href="?modul=org_doc" title="It's consist of : Organization Chart (STO), Job Description (JD), Job Specification (JS), Skill Map (SM), Analisa Kompetensi Personil (AKP), Training Need Analysis (TNA), Quality Objective (QO), Internal Audit Report (IAR) per Dept.">Organizational Document</a>
 		<?php if (($_SESSION['userlvl'] != 'administrator') && ($_SESSION['userlvl'] != 'branchmanager')) { ?>
-              <a class="menuitem submenu" href="?modul=view_qo">Quality Objective (QO)</a>
+              <a class="menuitem submenu" href="?modul=view_qo">Key Performance Indicator(KPI)</a>
               <a class="menuitem submenu" href="?modul=audit">Internal Audit</a>
 		<?php } ?>
 			</div>

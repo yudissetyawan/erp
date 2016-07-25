@@ -1,6 +1,6 @@
      <?php
     if(isset($_POST[submit])){
-     $direktori = 'upload/'; //Folder penyimpanan file
+     $direktori = 'master_upload/'; //Folder penyimpanan file
      $max_size  = 100000000*2; //Ukuran file maximal 10mb
      $nama_file = $_FILES['fileps']['name']; //Nama file yang akan di Upload
      $file_size = $_FILES['fileps']['size']; //Ukuran file yang akan di Upload

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_h_department" value="name:id;datatype:int,name:department;datatype:string" />
+	<infoitem key="UD_a_prod_code" value="name:id;datatype:int,name:productioncode;datatype:string" />
+	<infoitem key="UD_h_employee" value="name:id;datatype:int,name:nik;datatype:string,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string,name:initial;datatype:blob,name:department;datatype:string,name:jabatan;datatype:string,name:level;datatype:string,name:status;datatype:string,name:username;datatype:string,name:password;datatype:string,name:code;datatype:string,name:userlevel;datatype:string,name:date_of_start;datatype:string,name:id_attendance;datatype:int" />
+	<infoitem key="UD_h_employee_qly" value="name:id;datatype:int,name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_h_dept" value="name:id;datatype:int,name:dept;datatype:int,name:department;datatype:string" />
+	<infoitem key="UD_q_ncr" value="name:id;datatype:int,name:no_urutncr;datatype:int,name:no_ncr;datatype:string,name:title_ncr;datatype:blob,name:dept;datatype:int,name:supp;datatype:blob,name:req;datatype:blob,name:prod_code;datatype:int,name:prod_code_other;datatype:string,name:ncr_date;datatype:date,name:apprv_det;datatype:int,name:apprv_det_date;datatype:date,name:dispositioner;datatype:int,name:disp_date;datatype:date,name:apprv_disp;datatype:int,name:apprv_disp_date;datatype:date,name:comp_date;datatype:date,name:closed_by;datatype:int,name:date_closed;datatype:date,name:reviewed_by;datatype:int,name:detail;datatype:blob,name:disp_correct;datatype:blob,name:disp_prevent;datatype:blob,name:comment;datatype:blob,name:cost;datatype:string,name:fileupload;datatype:blob" />
+	<infoitem key="UD_prod_code" value="name:id;datatype:int,name:prod_code;datatype:int,name:productioncode;datatype:string" />
+	<infoitem key="UD_dispositioner" value="name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_apprv_det" value="name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_apprv_disp" value="name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_closed_by" value="name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+	<infoitem key="UD_reviewed_by" value="name:firstname;datatype:string,name:midlename;datatype:string,name:lastname;datatype:string" />
+</info>
